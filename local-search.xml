@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>获取对方位置</title>
+    <link href="/2021/11/06/%E8%8E%B7%E5%8F%96%E5%AF%B9%E6%96%B9%E4%BD%8D%E7%BD%AE/"/>
+    <url>/2021/11/06/%E8%8E%B7%E5%8F%96%E5%AF%B9%E6%96%B9%E4%BD%8D%E7%BD%AE/</url>
+    
+    <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>如何快速定位到对方具体的精准位置？这个不是难事，现在通过一个链接就可以定位到对方的位置，当然，这个也不是百分百成功的。</p><p>能不能成功这里面的影响因素很多，例如对方不打开你发送的连接，对方的手机关闭了定位，对方的浏览器关闭了定位等都是能不能成功的影响因素。</p><h1 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h1><p>可以上网的设备一台和下面这两个网站</p><p>定位网站：<a href="https://met.red/">https://met.red</a></p><p>连接精简网站：<a href="https://sina.lt/">https://sina.lt</a></p><h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><p>首先打开定位网站，点击【高精度IP定位】</p><p><img src="1-1.png"></p><p>然后点击【生产KEY】</p><p><img src="1-2.png"></p><p>然后在【自定义KEY】那个地方填写一窜你可以记住的数字，这个非常关键，因为后面需要用到这个KEY来查询位置，所以填写的时候你一定要保存记录你填写的值。</p><p><img src="1-3.png"></p><p>然后在【https://】那个地方填写一个链接，例如图片的链接，一个商品的链接等，例如我现在想要知道一个朋友的位置，但是我又不能直接问，那么我就可以问他“帮我看看这台电脑怎么样”，然后把链接发给他，但是为了不让他怀疑，所以我就把一个电脑的链接填到里面去，这样对方打开之后就会跳转到购买电脑的页面了。</p><p><img src="1-4.png"></p><p>填写好这两项之后点击【创建专属URL】，然后可以看到在按钮下方出现了一个链接</p><p><img src="1-5.png"></p><p>但是这个网址很长，有可能还会引起怀疑，我们还需要精简一下这个网址，这时候就用到了第二个网站，打开第二个网站</p><p><img src="1-6.png"></p><p>然后把刚刚在第一个网站创建出来的网址复制到这个网站来，粘贴到【请输入长网址：】那个地方去，然后点击【压缩一下】</p><p><img src="1-7.png"></p><p>压缩成功后会得出一个短网址，把这个短网址复制发送给需要定位的人</p><p><img src="1-8.png"></p><p>网址发送过去之后对方打开之后就会跳转到我们刚刚填写在【https://】的网址页面</p><p><img src="1-9.png"></p><p>这时候我们在打开第一个网站，点击【查询KEY】</p><p><img src="1-10.png"></p><p>然后在【查询KEY】那个地方输入需要查询的KEY，然后点击【搜索】</p><p><img src="1-11.png"></p><p>查询出来后点击【查看地图定位】就可以看到所在的位置了</p><p><img src="1-12.png"></p><h1 id="结尾彩蛋"><a href="#结尾彩蛋" class="headerlink" title="结尾彩蛋"></a>结尾彩蛋</h1><p><img src="0-0.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术共享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>定位</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>老电脑升级windows11</title>
+    <link href="/2021/10/30/%E8%80%81%E7%94%B5%E8%84%91%E5%8D%87%E7%BA%A7windows11/"/>
+    <url>/2021/10/30/%E8%80%81%E7%94%B5%E8%84%91%E5%8D%87%E7%BA%A7windows11/</url>
+    
+    <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>最近win11的正式版已经开始推送了，一部分符合升级条件的电脑已经可以收到了推送的新系统，但是大部分电脑即使符合条件也没有收到新系统，如果想要升级win11但是电脑不支持或者是没有收到推送那么可以试试我找到的这个工具。</p><p>这个工具是开源在<code>Github</code>上的，无论你的电脑支不支持win11的升级都是可以直接升级到win11的，我的台式电脑就是利用这个工具升级到了win11。</p><p>这个是直接升级，是不会清空电脑C盘的数据的，当然，如果怕出现意外那么可以备份一下重要的数据。</p><p>升级到win11之后，感觉用着不习惯或者是其他情况，想要退回win10也是可以的。</p><p>因为我不怎么看评论，所以有问题可以直接联系我，联系方式都是在【关于】页面里面有的。</p><h1 id="电脑配置"><a href="#电脑配置" class="headerlink" title="电脑配置"></a>电脑配置</h1><p>主板：技嘉B85-D3V-A</p><p>处理器：英特尔i5 4590</p><p>内存条：金士顿骇客DDR3-8G X2</p><p><img src="1-1.png"></p><h1 id="升级操作步骤"><a href="#升级操作步骤" class="headerlink" title="升级操作步骤"></a>升级操作步骤</h1><h2 id="下载工具"><a href="#下载工具" class="headerlink" title="下载工具"></a>下载工具</h2><p>打开<a href="https://github.com/AveYo/MediaCreationTool.bat">这个</a>网址，然后点击【Code】下的【Download ZIP】下载工具</p><p><img src="2-1.png"></p><p>下载完成后是一个压缩包</p><p><img src="2-2.png"></p><h2 id="开始升级"><a href="#开始升级" class="headerlink" title="开始升级"></a>开始升级</h2><p>解压，然后进入解压出来的文件夹</p><p><img src="2-3.png"></p><p>右键【MediaCreationTool.bat】，以管理员身份运行【MediaCreationTool.bat】</p><p><img src="2-4.png"></p><p>之后出现这个界面，选择【11】</p><p><img src="2-5.png"></p><p>然后选择【Auto Upgrade】，这个选项是自动升级选项，直接升级到WIN11，C盘是不会清空的，所有文件和数据都是保留的</p><p><img src="2-6.png"></p><p>如果需要做到U盘上给其他电脑安装，那么可以选择第三个选项【Make USB】</p><p><img src="2-7.png"></p><p>点击自动升级之后，我们只需要等待就可以，不用任何操作，系统下载完成后会自动重启更新的</p><p><img src="2-8.png"></p><h1 id="退回win10操作步骤"><a href="#退回win10操作步骤" class="headerlink" title="退回win10操作步骤"></a>退回win10操作步骤</h1><p>升级了win11之后在电脑的C盘可以看到一个【Windows.old】文件夹，这个文件夹保存的就是之前的win10，所以在你还没有确定要不要退回win10的时候这个文件夹是不能删除的。</p><p><img src="3-1.png"></p><p>如果需要退回win10，那么打开电脑的【设置】，找到【Windows更新】</p><p><img src="3-2.png"></p><p>选择【高级选项】</p><p><img src="3-3.png"></p><p>点击【恢复】</p><p><img src="3-4.png"></p><p>在恢复里面可以看到一个【返回】选项，点击【返回】</p><p><img src="3-5.png"></p><p>然后随便选一个原因，点击下一页就可以了</p><p><img src="3-6.png"></p><h1 id="工具地址"><a href="#工具地址" class="headerlink" title="工具地址"></a>工具地址</h1><p>Github地址：<a href="https://github.com/AveYo/MediaCreationTool.bat">https://github.com/AveYo/MediaCreationTool.bat</a></p><h1 id="结尾彩蛋"><a href="#结尾彩蛋" class="headerlink" title="结尾彩蛋"></a>结尾彩蛋</h1><p><img src="0-0.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术共享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>windows11</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>使用编程器刷显卡BIOS</title>
+    <link href="/2021/10/29/%E4%BD%BF%E7%94%A8%E7%BC%96%E7%A8%8B%E5%99%A8%E5%88%B7%E6%98%BE%E5%8D%A1BIOS/"/>
+    <url>/2021/10/29/%E4%BD%BF%E7%94%A8%E7%BC%96%E7%A8%8B%E5%99%A8%E5%88%B7%E6%98%BE%E5%8D%A1BIOS/</url>
+    
+    <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>昨天晚上记录如何刷显卡BIOS的时候，原本以为我刷的BIOS是可以用的，后面重启后起不来了，黑屏了，于是有了这篇《如何使用变成器刷显卡BIOS》</p><p>首先我们需要准备的有编程器一个，测线夹一个。</p><p>我这里使用的编程器是XTW100，某宝上十多块，连测线夹一起三十左右，系统是windows10。</p><p><img src="1-1.png"></p><p><img src="1-2.png"></p><h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><h2 id="安装编程器驱动"><a href="#安装编程器驱动" class="headerlink" title="安装编程器驱动"></a>安装编程器驱动</h2><h3 id="禁用驱动程序强制签名"><a href="#禁用驱动程序强制签名" class="headerlink" title="禁用驱动程序强制签名"></a>禁用驱动程序强制签名</h3><p>我们首先安装编程器驱动，编程器的驱动需要关闭win10的强制验证签名才能安装。</p><p>打开电脑的【设置】</p><p><img src="2-1.png"></p><p>打开【更新和安全】</p><p><img src="2-2.png"></p><p>点击【恢复】</p><p><img src="2-3.png"></p><p>点击【高级启动】下的【立即重新启动】</p><p><img src="2-4.png"></p><p>重启之后选择【疑难解答】</p><p><img src="2-5.png"></p><p>选择【高级选项】</p><p><img src="2-6.png"></p><p>选择【启动设置】</p><p><img src="2-7.png"></p><p>选择【重启】</p><p><img src="2-8.png"></p><p>在此重启后按【F7】选择【禁用驱动程序强制签名】</p><p><img src="2-9.png"></p><h3 id="安装驱动"><a href="#安装驱动" class="headerlink" title="安装驱动"></a>安装驱动</h3><p>首先把编程器插入电脑</p><p><img src="2-10.png"></p><p>在桌面上【右键】【此电脑】，选择【管理】</p><p><img src="2-11.png"></p><p>点击【设备管理器】</p><p><img src="2-12.png"></p><p>找到【其他设备】下的【WinUSBcomm Device】，右键【WinUSBcomm Device】，选择【更新驱动程序】</p><p><img src="2-13.png"></p><p>选择【浏览我的电脑以查找驱动程序】</p><p><img src="2-14.png"></p><p>点击【浏览】</p><p><img src="2-15.png"></p><p>找到商家给的驱动程序文件夹并选中，然后点击【确定】</p><p><img src="2-16.png"></p><p>点击【下一步】</p><p><img src="2-18.png"></p><p>选择【始终安装此驱动程序软件】</p><p><img src="2-19.png"></p><p>安装成功后点击【关闭】并且关掉设备管理窗口</p><p><img src="2-20.png"></p><h2 id="找到显卡BIOS芯片"><a href="#找到显卡BIOS芯片" class="headerlink" title="找到显卡BIOS芯片"></a>找到显卡BIOS芯片</h2><p>拆开显卡，找BIOS芯片，BIOS芯片是8脚的，并且型号上一般都是带有<code>24</code>或者是<code>25</code>的，例如我的显卡的BIOS芯片型号是<code>PM25LD010</code>，这就是带有<code>25</code>的，如果不确定的话可以百度一下自己的显卡上的8脚芯片，百度上看到的是<code>存储</code>芯片一般就是BIOS芯片了。</p><p><img src="3-1.png"></p><h2 id="刷入BIOS"><a href="#刷入BIOS" class="headerlink" title="刷入BIOS"></a>刷入BIOS</h2><p>找到BIOS芯片之后就可以开始刷入BIOS了</p><p>把测线夹连接编程器，测线夹红线为1脚，编程器靠拉杆的为1脚</p><p><img src="4-1.png"></p><p>打开【编程器】的软件</p><p><img src="4-2.png"></p><p>可以看到软件已经检测到编程器连接了，如果没有检测到就拔掉编程器在从新插入</p><p><img src="4-3.png"></p><p>把测线夹夹到芯片上，注意不要夹反了，芯片上有一个点的那个脚为芯片的1脚，测线夹红色的线是1脚，第1脚要对第1脚</p><p><img src="4-4.png"></p><p>在编辑器上选择芯片的型号，如果没有找到自己的芯片型号可以选择相近的型号试试，或者直接上某宝问问编程器卖家同一型号的变成器能不能刷你的芯片，如果他说可以，那你就说没在芯片列表里面看到你的芯片，这时候一般都会和你说用那个兼容的型号来刷了</p><p><img src="4-5.png"></p><p>选择好型号后点击【读出芯片】</p><p><img src="4-6.png"></p><p>选择【擦除芯片】</p><p><img src="4-7.png"></p><p>点击【打开】，找到需要刷入的BIOS</p><p><img src="4-8.png"></p><p>然后选中需要输入的显卡BIOS文件，并且点击【打开】载入文件，如果在自己存放显卡BIOS的文件夹里面没有看到BIOS，那么改下文件类型看看</p><p><img src="4-9.png"></p><p>载入BIOS文件后点击【写入芯片】开始写入BIOS</p><p><img src="4-10.png"></p><p>写入完成后在点击一次【读出芯片】，看看写入的文件和刚刚打开的文件的内容一样不一样，或者是直接点击【校验芯片】进行校验，如果校验没错那么就是写入成功了</p><p><img src="4-11.png"></p><p>写入完成后就可以端口测线夹上机测试看看是否可以开机了。</p><h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><p>注意测线夹别夹反了或者是夹不到位</p><p>还有一点就是有的显卡需要插入电源才能写入，我的就是需要接入电源才可以写入，之前不知道在这写了半天就是写不进去，后面把显卡接入电源后就成功写入了</p><h1 id="结尾彩蛋"><a href="#结尾彩蛋" class="headerlink" title="结尾彩蛋"></a>结尾彩蛋</h1><p><img src="0-0.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术共享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>编程器</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>A卡刷BIOS</title>
+    <link href="/2021/10/28/A%E5%8D%A1%E5%88%B7BIOS/"/>
+    <url>/2021/10/28/A%E5%8D%A1%E5%88%B7BIOS/</url>
+    
+    <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>前几天在海鲜市场是买了一张迪兰的HD7870，等了好几天，到手后感觉BIOS不太对劲，感觉BIOS好像被改过，于是就自己动手刷BIOS了。</p><p>刷第一次BIOS的时候是正常的，后面想着刷一个高频率的试试看，刷进去了之后在启动就启动不了，启动黑屏了，在网上找了很多教程，什么盲刷啊之类的，都没有成功，后面和朋友借了一个编程器才刷回来。</p><p>今天就分析一下用电脑刷A卡BIOS，编程器后面在写吧</p><p>刷BIOS有风险，请小心谨慎。</p><h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><h2 id="工具下载"><a href="#工具下载" class="headerlink" title="工具下载"></a>工具下载</h2><p>我们要用的工具有<code>GPU-Z</code>和<code>AMD VBFlash / ATI ATIFlash</code>，这两个工具可以在<a href="https://www.techpowerup.com/">TechPowerUp</a>上下载。</p><h3 id="GPU-Z下载与安装"><a href="#GPU-Z下载与安装" class="headerlink" title="GPU-Z下载与安装"></a>GPU-Z下载与安装</h3><p>首先打开TechPowerUp网站，然后点击【DOWNLOADS】，这里面就有工具下载了。</p><p><img src="1-1.png"></p><p>点击我们需要下载的工具，打开下载界面，然后点击【Download】进行下载</p><p><img src="1-2.png"></p><p>随便选择一个下载地址进行下载，一般都是直接选择第一个下载地址下载</p><p><img src="1-3.png"></p><p>下载完成后安装工具</p><p><img src="1-4.png"></p><p>可以修改安装路径，如果不介意软件装C盘可以直接下一步，修改好安装路径后一直点击下一步开始安装</p><p><img src="1-5.png"></p><h3 id="AMD-VBFlash-ATI-ATIFlash下载"><a href="#AMD-VBFlash-ATI-ATIFlash下载" class="headerlink" title="AMD VBFlash / ATI ATIFlash下载"></a>AMD VBFlash / ATI ATIFlash下载</h3><p>用同样的方法下载<code>AMD VBFlash / ATI ATIFlash</code>，这个网站提供的是最新的版本，最新的版本不能使用命令强刷了，必须要BIOS的ID匹配才可以刷，如果需要强刷的话我推荐自己找一下2.93的版本。</p><p><img src="2-1.png"></p><p>同样的，选择下载地址，然后开始下载</p><p><img src="2-2.png"></p><p>下载完成后解压下载下载的压缩包，打开解压后的文件夹，先运行<code>AMDVBFlashDriverInstaller.exe</code>这个驱动文件</p><p><img src="2-3.png"></p><p>输入【i】进行安装</p><p><img src="2-4.png"></p><h2 id="下载BIOS"><a href="#下载BIOS" class="headerlink" title="下载BIOS"></a>下载BIOS</h2><p>打开<a href="https://www.techpowerup.com/">TechPowerUp</a>，也就是刚刚下载工具的网站，然后选中【DATABASES】下的【VGA BIOS COLLECTION】</p><p><img src="3-1.png"></p><p>然后更加自己的显卡型号选择筛选条件</p><p><img src="3-2.png"></p><p>筛选出来的同一型号的BIOS有很多，这时候打开GPU-Z，更加GPU-Z显示的信息查找和显卡对应的BIOS，主要是看自己的显存和接口类型</p><p><img src="3-3.png"></p><p>找到自己的BIOS，然后点击型号进入下载界面，点击【Download Now】进行下载。</p><p><img src="3-4.png"></p><h2 id="备份BIOS"><a href="#备份BIOS" class="headerlink" title="备份BIOS"></a>备份BIOS</h2><p>打开GPU-Z，点击【分享】图标，选择【save to file…】备份自己现在可以正常启动的BIOS</p><p><img src="4-1.png"></p><p>选择文件的保存路径，命名一个自己可以知道是备份的文件名，然后点击【保存】</p><p><img src="4-2.png"></p><h2 id="刷入新BIOS"><a href="#刷入新BIOS" class="headerlink" title="刷入新BIOS"></a>刷入新BIOS</h2><p>打开刚刚解压出来的文件夹，双击<code>amdvbflashWin.exe</code>，运行工具</p><p><img src="5-1.png"></p><p>点击【Load Image】</p><p><img src="5-2.png"></p><p>在弹出来的窗口中选中刚刚下载的BIOS，并且点击【打开】按钮加载固件</p><p><img src="5-3.png"></p><p>BIOS选择完成后点击【Program】开始刷入新BIOS到显卡中</p><p><img src="5-4.png"></p><p>刷入完成后会让你重启电脑，这样BIOS就刷入完成了</p><p><img src="5-5.png"></p><p><img src="5-6.png"></p><h1 id="结尾彩蛋"><a href="#结尾彩蛋" class="headerlink" title="结尾彩蛋"></a>结尾彩蛋</h1><p><img src="0-0.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术共享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>显卡BIOS</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>黑苹果Clover注入声卡、核显ID</title>
+    <link href="/2021/10/22/%E9%BB%91%E8%8B%B9%E6%9E%9CClover%E6%B3%A8%E5%85%A5%E5%A3%B0%E5%8D%A1%E3%80%81%E6%A0%B8%E6%98%BEID/"/>
+    <url>/2021/10/22/%E9%BB%91%E8%8B%B9%E6%9E%9CClover%E6%B3%A8%E5%85%A5%E5%A3%B0%E5%8D%A1%E3%80%81%E6%A0%B8%E6%98%BEID/</url>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>前几天电脑显卡没了，只能用核显了，这让我这台接近十年的老电脑运行windows的时候有些吃力，经过一番的思考，我装上了黑苹果，因为之前这台电脑就装过黑苹果，所以我知道硬件方面是没问题的，这次能不能再次装上就看我的技术问题了，于是经过两天的努力，我这台电脑顺利装上了黑苹果。</p><p>安装的过程还是有点艰辛的，毕竟上次我用黑苹果是在一年多以前了，那时候mac os的最高版是10.15.4，现在都出到了12了，引导也更新了很多个版本了。那时候主流的引导程序还是Clover,现在很多都是OC了。</p><p>经过了九牛二虎之力，终于成功装上了，安装的详细过程就不说了，但是只要引导（EFI）找对了，那安装起来就简单了，就和windows安装方法差不多了，都是插上U盘，然后启动安装程序，开始安装。</p><p>这个是原版安装，还有一种是恢复方式对安装，不用U盘，有专门的工具，直接把别人安装好的系统恢复到你电脑上，现在据说原版安装也可以用工具直接在windows下安装了，但是我没试过，不知道怎么操作，也不知道是不是真的原版安装。</p><p>安装的过程就不多说了，感兴趣的小伙伴可以在B站或者是个大视频网站上直接搜索<code>黑苹果安装</code>就可以找到相关的视频教程了，这里就记录一下我注入驱动的方法吧，毕竟我的记性不是很好，和大家分享的同时也是自己做个记录吧。</p><p><img src="1-1.png"></p><h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><h2 id="注入显卡ID"><a href="#注入显卡ID" class="headerlink" title="注入显卡ID"></a>注入显卡ID</h2><p>首先用Clover编辑器打开引导的配置文件</p><p><img src="2-1.png"></p><p>然后点击【显卡设置】</p><p><img src="2-2.png"></p><p>在【显卡设置】里面可以看到有个选项是【ig-platform-id】，就是在这个选项上填写ID注入</p><p><img src="2-3.png"></p><p>这个显卡id是根据自己的显卡型号来填写的，如果不知道自己的显卡id的话可以打开[这个](<a href="https://blog.daliansky.net/Intel-core-display-platformID-finishing.html">黑苹果必备：Intel核显platform ID整理及smbios速查表 | 黑果小兵的部落阁 (daliansky.net)</a>)网站查找，根据自己的核显型号来查找，例如我的是核显型号是<code>Intel HD Graphics 4600</code>那么我直接使用快捷键<code>ctrl+f</code>搜索我的核显型号，然后就可以找到相应的id了，如果搜索自己的型号有多个id的话就需要一个一个测试了。</p><p><img src="2-4.png"></p><h2 id="注入声卡ID"><a href="#注入声卡ID" class="headerlink" title="注入声卡ID"></a>注入声卡ID</h2><p>注入声卡id和显卡id都是一样的方法，只是注入的位置不同，注入声卡id的位置是【设备设置】里面，在【设备设置】里面有一个【Audio】选项，声卡id就是在这个里面注入，注入声卡id的同时勾选上后面的两个选项。</p><p><img src="2-5.png"></p><p>同样的，声卡id也是更具自己的声卡型号来查的，打开[这个](<a href="http://imacos.top/2019/09/07/1920/">AppleALC.kext声卡驱动支持的硬件型号与ID速查表 - 黑苹果屋 (imacos.top)</a>)网站，然后按照搜索显卡id的方法进行搜索，同一个型号的声卡id是比较多的，只能一个个试。</p><p><img src="2-6.png"></p><p>如果在我给的那两个网站上找不到自己的声卡或者是显卡id就自己百度【声卡id对照表/显卡id对照表】，提供这个对照表的网站还是有很多的。</p><p>如果不知道自己的核显型号和声卡型号的话自己百度自己的处理器就可以看到处理器参数了，同理，不知道自己的声卡id就直接百度主板型号查看参数。</p><h1 id="结尾彩蛋"><a href="#结尾彩蛋" class="headerlink" title="结尾彩蛋"></a>结尾彩蛋</h1><p><img src="0-0.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术共享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>黑苹果</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>功能强大免费无水印录屏工具</title>
+    <link href="/2021/10/18/%E5%8A%9F%E8%83%BD%E5%BC%BA%E5%A4%A7%E5%85%8D%E8%B4%B9%E6%97%A0%E6%B0%B4%E5%8D%B0%E5%BD%95%E5%B1%8F%E5%B7%A5%E5%85%B7/"/>
+    <url>/2021/10/18/%E5%8A%9F%E8%83%BD%E5%BC%BA%E5%A4%A7%E5%85%8D%E8%B4%B9%E6%97%A0%E6%B0%B4%E5%8D%B0%E5%BD%95%E5%B1%8F%E5%B7%A5%E5%85%B7/</url>
+    
+    <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>软件名称：ShareX<br>软件官网：<a href="https://getsharex.com/">https://getsharex.com/</a></p><p>分享一个免费的无水印的录屏工具，运行时展内存小，而且录制出来的视频质量很好。</p><p>这个软件是国外开发的，完全免费开源，在Github上可以找得到。</p><p>进入官网以后直接点击【Download】按钮下载</p><p><img src="1-1.png"></p><h1 id="结尾彩蛋"><a href="#结尾彩蛋" class="headerlink" title="结尾彩蛋"></a>结尾彩蛋</h1><p><img src="0-0.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>软件共享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>录屏</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>一个实用的windows小工具</title>
+    <link href="/2021/10/18/%E4%B8%80%E4%B8%AA%E5%AE%9E%E7%94%A8%E7%9A%84windows%E5%B0%8F%E5%B7%A5%E5%85%B7/"/>
+    <url>/2021/10/18/%E4%B8%80%E4%B8%AA%E5%AE%9E%E7%94%A8%E7%9A%84windows%E5%B0%8F%E5%B7%A5%E5%85%B7/</url>
+    
+    <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>软件名称：Dism++<br>软件官网：<a href="http://www.chuyu.me/zh-Hans/">http://www.chuyu.me/zh-Hans/</a></p><p>这个工具叫Dism++，在百度上可以直接搜索出来，功能强大，打开即用，无需安装。</p><p>这里面可以清除电脑垃圾，启动项管理、系统优化等功能，各大管家有的功能在上面几乎都可以找到。</p><p><img src="1-1.png"></p><p><img src="1-2.png"></p><p><img src="1-3.png"></p><h1 id="结尾彩蛋"><a href="#结尾彩蛋" class="headerlink" title="结尾彩蛋"></a>结尾彩蛋</h1><p><img src="0-0.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>软件共享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工具</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>复制百度文库内容</title>
+    <link href="/2021/10/18/%E5%A4%8D%E5%88%B6%E7%99%BE%E5%BA%A6%E6%96%87%E5%BA%93%E5%86%85%E5%AE%B9/"/>
+    <url>/2021/10/18/%E5%A4%8D%E5%88%B6%E7%99%BE%E5%BA%A6%E6%96%87%E5%BA%93%E5%86%85%E5%AE%B9/</url>
+    
+    <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>很多时候需要复制百度文库里面的内容，但是直接复制复制不出来，这时候可以通过修改浏览器的设置来实现文库的复制，但是只能复制出内容，需要自己去排版。</p><h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><p>第一步，打开百度文库，找到自己需要复制的文章，我这里找的是一个合同。</p><p><img src="1-1.png"></p><p>这时候我们直接复制会提示我们没有开通VIP不能直接复制。</p><p><img src="1-2.png"></p><p>这种情况我们只需要按F12。</p><p><img src="1-3.png"></p><p>然后点击右上角的【设置】图标，不同的浏览器可能在不同的位置，我的浏览器是EDGE，其他浏览器自己找一下。</p><p><img src="1-4.png"></p><p>打开设置之后往下滑，找到Debugger，勾选里面的禁用javaScript选项。</p><p><img src="1-5.png"></p><p>禁用之后在来复制文库的内容即可正常复制，但是这样复制下来的文本排版是乱的，需要自己在去排版。</p><h1 id="结尾彩蛋"><a href="#结尾彩蛋" class="headerlink" title="结尾彩蛋"></a>结尾彩蛋</h1><p><img src="0-0.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术共享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>百度文库</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>windows强力卸载软件</title>
+    <link href="/2021/10/18/windows%E5%BC%BA%E5%8A%9B%E5%8D%B8%E8%BD%BD%E8%BD%AF%E4%BB%B6/"/>
+    <url>/2021/10/18/windows%E5%BC%BA%E5%8A%9B%E5%8D%B8%E8%BD%BD%E8%BD%AF%E4%BB%B6/</url>
+    
+    <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>软件名称：geek<br>软件官网：<a href="https://geekuninstaller.com/">https://geekuninstaller.com/</a><br>这是一个windows的强力卸载软件，无论是电脑自带的还是第三方的软件它都可以直接卸载，卸载不掉的可以直接强制卸载。</p><h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><p>这个软件在官网分为收费和免费版本，我们只要用到免费版本就可以了。</p><p><img src="1-1.png"></p><p>下载好之后是一个压缩包，解压之后直接运行即可。</p><p><img src="1-2.png"></p><p>选中要卸载的软件，然后右键，卸载或强制删除即可。</p><h1 id="结尾彩蛋"><a href="#结尾彩蛋" class="headerlink" title="结尾彩蛋"></a>结尾彩蛋</h1><p><img src="0-0.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>软件共享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>强力卸载</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>windows压缩软件推荐</title>
+    <link href="/2021/10/18/windows%E5%8E%8B%E7%BC%A9%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/"/>
+    <url>/2021/10/18/windows%E5%8E%8B%E7%BC%A9%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</url>
+    
+    <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>软件名称：7z</p><p>软件官网：<a href="https://www.7-zip.org/">https://www.7-zip.org/</a></p><p>这是一个免费、体积小、无广告的压缩软件</p><p><img src="1-1.png"></p><h1 id="结尾彩蛋"><a href="#结尾彩蛋" class="headerlink" title="结尾彩蛋"></a>结尾彩蛋</h1><p><img src="0-0.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>软件共享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>解压软件</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>查询电脑操作记录</title>
+    <link href="/2021/10/18/%E6%9F%A5%E8%AF%A2%E7%94%B5%E8%84%91%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95/"/>
+    <url>/2021/10/18/%E6%9F%A5%E8%AF%A2%E7%94%B5%E8%84%91%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95/</url>
+    
+    <content type="html"><![CDATA[<h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><p>这个方法可以查询你的电脑的操作记录，可以让你知道在你离开期间有没有谁动过你的电脑</p><p>第一步，按组合键“win+r”键打开运行窗口</p><p><img src="1-1.png"></p><p>第二步，输入“recent”然后回车</p><p><img src="1-2.png"></p><p>回车后打开的这个窗口就可以看到了操作记录，当然，这个记录只记录了电脑上的文件更改记录。</p><p><img src="1-3.png"></p><h1 id="结尾彩蛋"><a href="#结尾彩蛋" class="headerlink" title="结尾彩蛋"></a>结尾彩蛋</h1><p><img src="0-0.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术共享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>电脑操作记录</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>谷歌搜索小技巧</title>
+    <link href="/2021/10/18/%E8%B0%B7%E6%AD%8C%E6%90%9C%E7%B4%A2%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    <url>/2021/10/18/%E8%B0%B7%E6%AD%8C%E6%90%9C%E7%B4%A2%E5%B0%8F%E6%8A%80%E5%B7%A7/</url>
+    
+    <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>现在网络上的资源很多，导致我们每次搜索出来的东西可能不是我们想要的，或者是和我们想要的有点偏差，但是下面这些小技巧可以让你更精确的搜索出想要的资源。</p><h1 id="双引号搜索"><a href="#双引号搜索" class="headerlink" title="双引号搜索"></a>双引号搜索</h1><p>双引号搜索可以更准确的搜索出你想要的东西，例如直接在谷歌搜索【小星星的博客】，是搜索不出来我的博客的。</p><p><img src="1-1.png"></p><p>如果我们在搜索的时候加上双引号，例如【“小星星的博客”】，这样搜索出来的第一个结果就是我的博客了。</p><p><img src="1-2.png"></p><h1 id="结尾彩蛋"><a href="#结尾彩蛋" class="headerlink" title="结尾彩蛋"></a>结尾彩蛋</h1><p><img src="0-0.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术共享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>搜索技巧</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>BT种子搜索神器</title>
+    <link href="/2021/10/18/BT%E7%A7%8D%E5%AD%90%E6%90%9C%E7%B4%A2%E7%A5%9E%E5%99%A8/"/>
+    <url>/2021/10/18/BT%E7%A7%8D%E5%AD%90%E6%90%9C%E7%B4%A2%E7%A5%9E%E5%99%A8/</url>
+    
+    <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>软件名：magnetw</p><p>官方下载地址：<a href="https://github.com/xiandanin/magnetW">https://github.com/xiandanin/magnetW</a></p><p>这是一个免费的，开源的软件，有Windwos版本、linux版本、Mac版本。</p><p><img src="1-1.png"></p><p>这个工具里面集成了十多个搜索接口，可以满足大部分需求，接口一键切换，非常方便</p><p><img src="1-2.png"></p><h1 id="结尾彩蛋"><a href="#结尾彩蛋" class="headerlink" title="结尾彩蛋"></a>结尾彩蛋</h1><p><img src="0-0.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>软件共享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>种子</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>windows屏幕扩展软件</title>
+    <link href="/2021/10/18/windows%E5%B1%8F%E5%B9%95%E6%89%A9%E5%B1%95%E8%BD%AF%E4%BB%B6/"/>
+    <url>/2021/10/18/windows%E5%B1%8F%E5%B9%95%E6%89%A9%E5%B1%95%E8%BD%AF%E4%BB%B6/</url>
+    
+    <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>这是一个电脑屏幕拓展工具，可以将你的手机，平板等设备扩展成为你的电脑屏幕，但是前提是两台设备必须在同一个局域网，软件小巧，延迟比较低。</p><p><img src="1-1.png"></p><p>这个软件支持windows，苹果，安卓，在一定程度上打破了“生态圈”</p><p><img src="1-2.png"></p><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><p>软件的使用非常简单，先在电脑上和手机上下载并安装好软件，然后再同一个局域网打开软件，软件会自动扫描到可以投屏的ip，点击ip连接即可。</p><p><img src="1-3.jpg"></p><h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><p>软件官网：<a href="https://www.spacedesk.net/">https://www.spacedesk.net/</a></p><h1 id="结尾彩蛋"><a href="#结尾彩蛋" class="headerlink" title="结尾彩蛋"></a>结尾彩蛋</h1><p><img src="0-0.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>软件共享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>屏幕扩展</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>无限制使用TeamViewer远程</title>
+    <link href="/2021/10/18/%E6%97%A0%E9%99%90%E5%88%B6%E4%BD%BF%E7%94%A8TeamViewer%E8%BF%9C%E7%A8%8B/"/>
+    <url>/2021/10/18/%E6%97%A0%E9%99%90%E5%88%B6%E4%BD%BF%E7%94%A8TeamViewer%E8%BF%9C%E7%A8%8B/</url>
+    
+    <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>现在的远程工具有很多，但是最好用的还是windows自带的远程桌面和TeamViewer。</p><p>但是TeamViewer使用的时候是收费的，如果选择的是个人版也是需要登陆才可以使用，有时候还会登陆不上，非常浪费时间。</p><p>现在可以利用蒲公英来辅助TeamViewer，这样就可以无限制使用了。</p><h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><p>先去<a href="https://console.oray.com/passport/register.html?fromurl=https://console.sdwan.oray.com/passport/login">蒲公英</a>注册一个免费的个人账号，如果之前注册过也可以直接<a href="https://console.sdwan.oray.com/passport/login">登陆</a>。</p><p><img src="1-1.png"></p><p>注册完成之后登陆上去，点击【创建网络】。</p><p><img src="1-2.png"></p><p>选择对【等网络】，然后填写【名称】，名称可以随便填写，然后点击【确定】。</p><p><img src="1-3.png"></p><p>创建完成之后点击【添加成员】</p><p><img src="1-4.png"></p><p>选择【软件成员】，然后数量最大只能选择【3】个，之后就设置连接【密码】，填写完成后点击【确定】按钮添加。</p><p><img src="1-5.png"></p><p>看到分配好的内网ip就说明添加成功了。</p><p><img src="1-6.png"></p><p>添加成功后需要<a href="https://pgy.oray.com/download/?icn=pgy_download&ici=p_login">下载</a>蒲公英客户端，然后登陆蒲公英。</p><p><img src="1-7.png"></p><p>下载安装后在蒲公英后台复制UID进行登陆，密码就是刚刚添加成员设置的密码。</p><p><img src="1-8.png"></p><p>登陆上去之后就可以看到刚刚添加的成员的IP了。</p><p><img src="1-9.png"></p><p>这样子蒲公英这边就已经设置好了，当然我这里是一台，在你远程的电脑上都要等蒲公英，不管是被控端和控制端都要登陆。</p><hr><p>下面就开始设置了TeamViewer了，首先<a href="https://www.teamviewer.com/en/download/windows/">下载</a>TeamViewer，安装好了之后打开软件,然后点击【其他】，选择【选项】。</p><p><img src="1-10.png"></p><p>在【常规】中把【呼入的LAN连接】改为【接受】。</p><p><img src="1-11.png"></p><p>在到【高级】选项里面去设置【个人密码】，这个个人密码是用于远程登陆的密码。</p><p><img src="1-12.png"></p><p>都设置完成后点击【确定】按钮保存，这样就完全设置好了。</p><p>设置好了之后就是使用了，无论是被控端还是控制端都需要登陆蒲公英，然后使用TeamViewer远程的时候直接在蒲公英复制<strong>被控端的ip</strong>地址填写到TeamViewer的【伙伴ID】那个位置，然后点击连接，连接上之后需要填写刚刚设置的密码即可成功连接</p><p><img src="1-13.png"></p><hr><p><strong>原理：</strong></p><p>相信到这很多同学都已经明白了其中的原理了，原理就是利用蒲公英进行组网，先把需要远程的电脑都拉到同一个局域网中，之后通过局域网远程，这样TeamViewer就不会限制了。</p><p>明白了这个原理之后，其实可以不用TeamViewer远程，直接用windows自带的远程桌面远程即可。</p><hr><p>这个技术之前在某鱼上和某宝上有用用来卖钱，既然别人都用来卖钱了我这里要求来过的人留个言评个论不过分吧</p><h1 id="结尾彩蛋"><a href="#结尾彩蛋" class="headerlink" title="结尾彩蛋"></a>结尾彩蛋</h1><p><img src="0-0.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术共享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>远程</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Sublim-text汉化教程</title>
+    <link href="/2021/10/18/Sublim-text%E6%B1%89%E5%8C%96%E6%95%99%E7%A8%8B/"/>
+    <url>/2021/10/18/Sublim-text%E6%B1%89%E5%8C%96%E6%95%99%E7%A8%8B/</url>
+    
+    <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>Sublim text是一个代码编辑软件，个人感觉还是挺好用的，但是从官网下载的安装的时候都是英文版的，如果你想要汉化版的话还需要自己动手下载语言包</p><h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><p>这个是刚安装打开的样子，全英文的。</p><p><img src="1-1.png"></p><p>打开软件之后首先点击【Tools】，然后找到【Install Package Control】并且点击进去。</p><p><img src="1-2.png"></p><p>然后会弹出一个窗口，点击【确定】</p><p><img src="1-3.png"></p><p>再次点击【Tools】，然后点击【Command Palette】，或者是直接按【Ctrl】+【Shift】+【P】</p><p><img src="1-4.png"></p><p>然后输入“ip”，在弹出来的选择中选择第一个</p><p><img src="1-5.png"></p><p>点击之后在左下角就可以看到安装的进度</p><p><img src="1-6.png"></p><p>点击【Preferences】,找到【Package Control】并点击</p><p><img src="1-7.png"></p><p>再次输入“ip”，然后选择第一个选</p><p><img src="1-8.png"></p><p>安装完成后会弹出一个刚刚那种窗口，直接输入“clz”，然后选择第一个选项。</p><p><img src="1-9.png"></p><p>安装完成后就变成了中文版的</p><p><img src="1-10.png"></p><h1 id="结尾彩蛋"><a href="#结尾彩蛋" class="headerlink" title="结尾彩蛋"></a>结尾彩蛋</h1><p><img src="0-0.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术共享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>教程</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>实用网站分享</title>
+    <link href="/2021/10/18/%E5%AE%9E%E7%94%A8%E7%BD%91%E7%AB%99%E5%88%86%E4%BA%AB/"/>
+    <url>/2021/10/18/%E5%AE%9E%E7%94%A8%E7%BD%91%E7%AB%99%E5%88%86%E4%BA%AB/</url>
+    
+    <content type="html"><![CDATA[<h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><table><thead><tr><th>序号</th><th>网站名称</th><th>网站内容</th></tr></thead><tbody><tr><td>1</td><td>JIKE</td><td>论坛，各种活动，激活码分享</td></tr><tr><td>2</td><td>美剧星球</td><td>各种美剧免费看</td></tr><tr><td>3</td><td>韩剧TV</td><td>各种韩剧免费看</td></tr><tr><td>4</td><td>爱好论坛</td><td>论坛、激活码、技术分享</td></tr><tr><td>5</td><td>PPT超级市场</td><td>各种PPT模板免费下载</td></tr><tr><td>6</td><td>软件SOS</td><td>各种破解软件下载，有windows和MAC的破解软件下载</td></tr><tr><td>7</td><td>wallhaven</td><td>各种高清免费壁纸</td></tr><tr><td>8</td><td>seeseed</td><td>里面集成各种设计网站、素材网站等</td></tr><tr><td>9</td><td>moakt</td><td>临时邮箱，用于临时注册某些网站</td></tr><tr><td>10</td><td>SMDN</td><td>windows原版系统下载，微软各种软件下载</td></tr><tr><td>11</td><td>Mp4.vg</td><td>各种免费电影免费分享</td></tr><tr><td>12</td><td>蓝光电影网</td><td>各种免费电影分享</td></tr><tr><td>13</td><td>Fosshub</td><td>各种开源软件下载，里面总结了很多有用的开源软件</td></tr><tr><td>14</td><td>aconvert</td><td>文件格式在线免费无限制转换</td></tr><tr><td>15</td><td>gitmind</td><td>在线免费制作思维导图</td></tr><tr><td>16</td><td>爱易默博客</td><td>各种破解软件免费分享</td></tr><tr><td>17</td><td>影猫</td><td>各种免费高质量电影分享</td></tr></tbody></table><h1 id="1、JIKE"><a href="#1、JIKE" class="headerlink" title="1、JIKE"></a><a href="https://jike.info/">1、JIKE</a></h1><p>这是一个论坛，里面有很多我感觉有用的东西，例如windows的激活码之类的，关键是都是免费的，还有网友分享的各种活动，资源等，都是免费的。</p><p><img src="1-1.png" alt="JIKE"></p><h1 id="2、美剧星球"><a href="#2、美剧星球" class="headerlink" title="2、美剧星球"></a><a href="https://www.meijuxq.tv/">2、美剧星球</a></h1><p>这个是一个视频网站，里面的都是美剧，关键是免费的，这对于喜欢美剧的小伙伴来说应该是个不错的网站。</p><p><img src="2-1.png" alt="美剧星球"></p><h1 id="3、韩剧TV"><a href="#3、韩剧TV" class="headerlink" title="3、韩剧TV"></a><a href="https://www.hanju0.cc/">3、韩剧TV</a></h1><p>这是一个可以看韩剧的网站，就和上面美剧星球一样，都是免费的。</p><p><img src="3-1.png" alt="韩剧TV"></p><h1 id="4、爱好论坛"><a href="#4、爱好论坛" class="headerlink" title="4、爱好论坛"></a><a href="https://www.aihao.cc/">4、爱好论坛</a></h1><p>这个论坛主要是激活码吧，里面也是分享windows的激活码，还分享一些windows的工具或者是一些解决办法，可以说是一个技术论坛。</p><p>但是唯一的缺点就是注册需要邀请码，但是邀请码在我这篇文章的第一个论坛里面会有人分享，所以不是什么难事，但是论坛里面的一些板块是需要会员才可以进入的。</p><p><img src="4-1.png" alt="爱好论坛"></p><h1 id="5、PPT超级市场"><a href="#5、PPT超级市场" class="headerlink" title="5、PPT超级市场"></a><a href="https://pptsupermarket.com/">5、PPT超级市场</a></h1><p>这是一个PPT模板的网站，里面的模板很多，适合各种情况下使用，关键是可以免费下载。</p><p><img src="5-1.png" alt="PPT超级市场"></p><h1 id="6、软件SOS"><a href="#6、软件SOS" class="headerlink" title="6、软件SOS"></a><a href="https://www.rjsos.com/">6、软件SOS</a></h1><p>这是一个软件分享网站，各种破解软件的分享，不光有windows的，就连MAC的软件都有。</p><p><img src="6-1.png" alt="软件SOS"></p><h1 id="7、Wallhaven"><a href="#7、Wallhaven" class="headerlink" title="7、Wallhaven"></a><a href="https://wallhaven.cc/">7、Wallhaven</a></h1><p>这是一个壁纸网站，里面有很多精美的壁纸分享，都是免费的，壁纸类型众多，总有一张你喜欢的。</p><p><img src="7-1.png" alt="Wallhaven"></p><h1 id="8、seeseed"><a href="#8、seeseed" class="headerlink" title="8、seeseed"></a><a href="https://www.seeseed.com/">8、seeseed</a></h1><p>这个网站对于设计类的同学应该有用，这是一个导航，里面包含了很多设计类的网站。</p><p><img src="8-1.png" alt="seeseed"></p><h1 id="9、Moakt"><a href="#9、Moakt" class="headerlink" title="9、Moakt"></a><a href="https://www.moakt.com/zh">9、Moakt</a></h1><p>这是一个免费的临时邮箱，有很多时候在某个网站下载某些东西的时候需要注册才能下载，但是又不想用自己的邮箱注册，那么这个临时邮箱就是最好的选择。</p><p>点击“获得一个随机邮箱地址”就可以开始使用</p><p><img src="9-1.png" alt="Moakt"></p><h1 id="10、MSDN"><a href="#10、MSDN" class="headerlink" title="10、MSDN"></a><a href="https://msdn.itellyou.cn/">10、MSDN</a></h1><p>这个是一个分享微软产品的网站，里面有windows原版系统，没有改动过的，还有很多微软的原版软件工具。例如：office，Visual Studio等，最主要的是里面有windows系统的历史版本，还是免费的。</p><p><img src="10-1.png" alt="MSDN"></p><h1 id="11、Mp4-vg"><a href="#11、Mp4-vg" class="headerlink" title="11、Mp4.vg"></a><a href="https://www.mp4.vg/">11、Mp4.vg</a></h1><p>这是一个电影分享网站，里面的电影都是免费的，很多资源都是高清的。</p><p><img src="11-1.png" alt="Mp4.vg"></p><h1 id="12、蓝光电影网"><a href="#12、蓝光电影网" class="headerlink" title="12、蓝光电影网"></a><a href="http://www.languangdy.com/">12、蓝光电影网</a></h1><p>这个也是一个电影分享网站，也是免费的，里面也是很多资源都是高清的。</p><p><img src="12-1.png" alt="蓝光电影网"></p><h1 id="13、Fosshub"><a href="#13、Fosshub" class="headerlink" title="13、Fosshub"></a><a href="https://www.fosshub.com/">13、Fosshub</a></h1><p>这是一个免费的开源软件的下载软件，打开网页后可以直接搜索你需要下载的软件的名称，也可以更加网站提供的分类来筛选查找你需要的软件。</p><p>开源的软件在安全方面是可以完全不用担心的。网站默认为英文版，如果需要中文的话可以使用谷歌浏览器或者是EDGE浏览器翻译为中文。</p><p><img src="13-1.png" alt="Fosshub"></p><h1 id="14、aconvert"><a href="#14、aconvert" class="headerlink" title="14、aconvert"></a><a href="https://www.aconvert.com/">14、aconvert</a></h1><p>这个是一个文件在线转换网站，支持的文件类型很多，例如PDF转word，html转PDF等等，几乎生活中能常见的格式都可以转换，最主要的是免费的不限制次数的。缺点是国内好像访问不了。</p><p><img src="14-1.png" alt="aconvert"></p><h1 id="15、gitmind"><a href="#15、gitmind" class="headerlink" title="15、gitmind"></a><a href="https://gitmind.cn/">15、gitmind</a></h1><p>这个网站是一个免费的思维导图网站，可以免费在线制作思维导图，也有客户端可以下载，同时在线制作思维导图可以下载下来，还可以要求好友或者是团队进行多人编辑。</p><p><img src="15-1.png" alt="gitmind"></p><h1 id="16、爱易默博客"><a href="#16、爱易默博客" class="headerlink" title="16、爱易默博客"></a><a href="https://www.iemblog.com/?lang=zh">16、爱易默博客</a></h1><p>这也是一个软件分享网站，里面的软件各式各样，个人感觉这个网站很强大，如果想白嫖收费软件的可以在里面找找看。</p><p><img src="16-1.png" alt="爱易默博客"></p><h1 id="17、影猫"><a href="#17、影猫" class="headerlink" title="17、影猫"></a><a href="https://www.mvcat.com/">17、影猫</a></h1><p>这个看名字就知道是什么网站了，对了，这就是一个电影网站，免费的，里面各种电影都有，网站简洁，第一次打开需要关注微信公众号。</p><p><img src="17-1.png" alt="影猫"></p><h1 id="结尾彩蛋"><a href="#结尾彩蛋" class="headerlink" title="结尾彩蛋"></a>结尾彩蛋</h1><p><img src="0-0.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>资源共享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>网站分享</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>惠普增霸卡</title>
+    <link href="/2021/10/17/%E6%83%A0%E6%99%AE%E5%A2%9E%E9%9C%B8%E5%8D%A1/"/>
+    <url>/2021/10/17/%E6%83%A0%E6%99%AE%E5%A2%9E%E9%9C%B8%E5%8D%A1/</url>
+    
+    <content type="html"><![CDATA[<h1 id="软件说明"><a href="#软件说明" class="headerlink" title="软件说明"></a>软件说明</h1><p>常见使用场景：学校机房、公司机房、教育机构机房</p><p>功能：系统还原、系统同传、批量控制</p><p>缺点：同传必须千兆交换机，网络状态必须千兆，如果是百兆的同传即使提示成功了也会启动了，使用系统还原功能电脑启动会比较慢，电脑在使用过程中会容易卡顿</p><p>类似软件：影子保护系统、冰点还原</p><h1 id="软件下载"><a href="#软件下载" class="headerlink" title="软件下载"></a>软件下载</h1><p>下载地址：<a href="https://pan.baidu.com/s/1I_i5AvO1Wk06jLHwe-qK_A">https://pan.baidu.com/s/1I_i5AvO1Wk06jLHwe-qK_A</a></p><p>提取码：0000</p><h1 id="结尾彩蛋"><a href="#结尾彩蛋" class="headerlink" title="结尾彩蛋"></a>结尾彩蛋</h1><p><img src="0-0.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>软件共享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软件</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>NPS内网穿透</title>
+    <link href="/2021/10/17/NPS%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/"/>
+    <url>/2021/10/17/NPS%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/</url>
+    
+    <content type="html"><![CDATA[<h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p>现在我需要搭建一个自己的文件存储网站或者是博客，但是我没钱，买不起大容量的服务器，所以我需要在本地服务器上把服务搭建出来，然后在穿透出去，从而</p><p>实现我在外网访问自己的服务器。</p><h1 id="需要设备"><a href="#需要设备" class="headerlink" title="需要设备"></a>需要设备</h1><p>本地服务器一台</p><p>带公网IP的服务器一台</p><h1 id="第一步：安装NPS服务端"><a href="#第一步：安装NPS服务端" class="headerlink" title="第一步：安装NPS服务端"></a>第一步：安装NPS服务端</h1><p>NPS是一个开源的穿透服务，和FRP一样，都是免费的，但是我这里使用NPS是因为NPS对小白比较友好，客户端只要连接上服务端就可以，剩下的配置直接在可</p><p>视化界面上配置了，不需要像FRP一样每台客户端都需要手动去配置穿透服务器。</p><p>首先使用SSH工具连接到有公网IP的服务器，我这里使用的是FinalShell这个工具。</p><p><img src="1-1.png" alt="1-1"></p><p>然后到Githun上找到对应自己服务器的服务端，NPS项目在Githun上的地址：<a href="https://github.com/ehang-io/nps">https://github.com/ehang-io/nps</a></p><p><img src="1-2.png" alt="1-2"></p><p>我这里使用的是linux_amd64_servicer.tar.gz这个，找到了之后右键，复制连接地址</p><p><img src="1-3.png" alt="1-3"></p><p>然后回到服务器上输入<code>wget 粘贴刚刚复制的连接</code>进行下载</p><p><img src="1-4.png" alt="1-4"></p><p>下载完成后文件是在公网服务器上的ROOT目录下的，输入<code>tar -zxvf 文件名</code>进行解压</p><p><img src="1-5.png" alt="1-5"></p><p>解压完成后，我们可以看到root目录下面多出了三个文件，分别是conf、nps、web，这三个文件都是NPS的文件</p><p><img src="1-6.png" alt="1-6"></p><p>输入下面命令进行安装</p><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs cmake">./nps <span class="hljs-keyword">install</span><br></code></pre></td></tr></table></figure><p><img src="1-7.png" alt="1-7"></p><p>安装完成后输入下面命令服务端的启动</p><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs crmsh">nps <span class="hljs-literal">start</span><br></code></pre></td></tr></table></figure><p><img src="1-8.png" alt="1-8"></p><p>启动好了之后我们就可以在浏览器输入服务器地址加8080端口进行访问管理了</p><p><img src="1-9.png" alt="1-9"></p><h1 id="登录、配置服务"><a href="#登录、配置服务" class="headerlink" title="登录、配置服务"></a>登录、配置服务</h1><p>默认的登录名为<code>admin</code>,默认的密码为<code>123</code>，登录进去之后就可以看到NPS的管理界面了</p><p><img src="2-1.png" alt="2-1"></p><p>首先我们先新增一个客户端，点击【客户端】，然后点击【新增】</p><p><img src="2-2.png" alt="2-2"></p><p>【备注】随便填写，【允许客户端通过配置文件连接】我们可以选择【否】，这样可以方便管理，</p><p>还有效避免了端口冲突，【唯一验证密钥】我们可以手动填写，</p><p>也可以留空，留空则自动生成，填写完成后点击【新增】按钮</p><p><img src="2-3.png" alt="2-3"></p><p>添加成功后我们就可以在【客户端】里面看到了，但是现在是离线状态，还没有连接</p><p><img src="2-4.png" alt="2-4"></p><p>现在我需要添加一条TCP隧道，用于远程SSH连接我的内网服务器，首先点击【TCP隧道】，然后点击【新增】</p><p><img src="2-5.png" alt="2-5"></p><p>【客户端ID】这个需要和【客户端】里面的对应上，【备注】可以随便填，【服务端端口】需要填的是穿透出来后我们是通过那个端口访问，我这里填的是23端</p><p>口，意思就是我待会需要用SSH连接我内网服务器的时候我是通过公网服务器的23端口转过去的，目标IP可以直接填127.0.0.1:22，SSH默认的端口是22端口，本</p><p>机地址用127.0.0.1代替，填写完成后点击【新增】完成。</p><p><img src="2-6.png" alt="2-6"></p><p>新增完成后就可以在TCP隧道里面看到刚刚新增的记录了</p><p><img src="2-7.png" alt="2-7"></p><h1 id="连接服务"><a href="#连接服务" class="headerlink" title="连接服务"></a>连接服务</h1><p>服务器那边配置好之后就可以到客户端这边连接了</p><p>首先先到Github上下载对应自己电脑的客户端，我这里下载的是windows_amd64_claent.atr.gz这个</p><p><img src="3-1.png" alt="3-1"></p><p>下载完成后解压。</p><p><img src="3-2.png" alt="3-2"></p><p>进入解压出来的文件夹，继续解压，继续进入解压出来的文件夹，里面有一个conf文件夹和一个npc程序</p><p><img src="3-3.png" alt="3-3"></p><p>我们进入conf文件夹，里面有两个conf文件，我们需要改的是npc.conf这个文件</p><p><img src="3-4.png" alt="3-4"></p><p>用记事本打开文件，然后删除<code>[health_check_test1]</code>以下的配置</p><p><img src="3-5.png" alt="3-5"></p><p>然后修改地址和连接密钥，然后保存</p><p><img src="3-6.png" alt="3-6"></p><p>然后双击刚刚看到的NPC程序运行</p><p><img src="3-7.png" alt="3-7"></p><p>这时候我们就可以在管理面板里面看到客户端是在线的了</p><p><img src="3-8.png" alt="3-8"></p><p>刚刚我们穿透的是SSH服务，服务端端口填的是23，那么现在我就可以用公网IP加23端口访问我内网服务器的SSH了，但是因为我这里客户端是WINDOWS系统，</p><p>没有SSH服务，所以就不演示了，linux的客户端使用方法和这个是一样的，只是在配置文件配置好了之后使用<code>./npc</code>来启动客户端</p><h1 id="结尾彩蛋"><a href="#结尾彩蛋" class="headerlink" title="结尾彩蛋"></a>结尾彩蛋</h1><p><img src="0-0.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术共享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>穿透</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>零元搭建自己的博客</title>
+    <link href="/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
+    <url>/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
+    
+    <content type="html"><![CDATA[<h1 id="第一步-安装Git"><a href="#第一步-安装Git" class="headerlink" title="第一步:安装Git"></a>第一步:安装Git</h1><p>进入<a href="https://git-scm.com/">Git官网</a>,下载和自己电脑系统对应的版本进行安装</p><p><img src="1-1.png" alt="1-1"></p><p>下载完成后开始安装,点击【下一步】</p><p><img src="1-2.png" alt="1-2"></p><p>修改一下安装路径，然后点击【下一步】，如果自己C盘够用也可以直接安装</p><p><img src="1-3.png" alt="1-3"></p><p>然后一直点击【下一步】，直到安装完成</p><p><img src="1-4.png" alt="1-4"></p><p>安装完成后在电脑桌面上右键出现 【Git GUI Here】和【Git Bash Here】这两个选项就是安装成功了</p><p><img src="1-5.png" alt="1-5"></p><p>右键，选择【Git Bash Here】打开终端，输入以下命令</p><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs verilog">git <span class="hljs-keyword">config</span> --<span class="hljs-keyword">global</span> user<span class="hljs-variable">.name</span> <span class="hljs-string">&quot;用户名&quot;</span><br>git <span class="hljs-keyword">config</span> --<span class="hljs-keyword">global</span> user<span class="hljs-variable">.email</span> <span class="hljs-string">&quot;邮箱&quot;</span><br></code></pre></td></tr></table></figure><p><img src="1-6.png" alt="1-6"></p><h1 id="第二步-安装NodeJS"><a href="#第二步-安装NodeJS" class="headerlink" title="第二步:安装NodeJS"></a>第二步:安装NodeJS</h1><p>进入<a href="https://nodejs.org/zh-cn/download/">NodeJS官网</a>下载和自己系统对应的安装包直接安装</p><p><img src="2-1.png" alt="2-1"></p><p>下载完成后打开安装，点击【下一步】</p><p><img src="2-2.png" alt="2-2"></p><p>勾选同意协议选项，点击【下一步】</p><p><img src="2-3.png" alt="2-3"></p><p>可以修改安装路径，如果C盘够大可以直接点击【下一步】</p><p><img src="2-4.png" alt="2-4"></p><p>一直点击【下一步】，直到安装完成</p><p><img src="2-5.png" alt="2-5"></p><p>打开CMD窗口，执行<code>node -v</code>命令查看版本，能成功执行就说明安装成功了</p><p><img src="2-6.png" alt="2-6"></p><p>在安装node的时候npm同时也安装上了，执行<code>npm -v</code>查看npm版本，能成功执行说明安装成功</p><p><img src="2-7.png" alt="2-7"></p><p>下面就是修改全局包配置，不上必须的，可以不用修改</p><p>下载全局包是，默认保存在C盘下，我不想要全局包保存在C盘下，所以我需要修改一下</p><p>首先在安装目录创建两个文件夹，node_global文件夹用于存放全局包，node_cache是node的缓存</p><p><img src="2-8.png" alt="2-8"></p><p>在cmd中执行下面两行命令，注意自己刚刚创建的文件夹的路径和命令中的对不对，不对的自己改一下</p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs routeros">npm<span class="hljs-built_in"> config </span><span class="hljs-builtin-name">set</span><span class="hljs-built_in"> prefix </span><span class="hljs-string">&quot;D:\nodejs\node_global&quot;</span><br>npm<span class="hljs-built_in"> config </span><span class="hljs-builtin-name">set</span> cache <span class="hljs-string">&quot;D:\nodejs\node_cache&quot;</span><br></code></pre></td></tr></table></figure><p><img src="2-9.png" alt="2-9"></p><p>然后修改电脑变量，首先在桌面上【右键】此电脑，打开【属性】</p><p><img src="2-10.png" alt="2-10"></p><p>点击【高级系统设置】</p><p><img src="2-11.png" alt="2-11"></p><p>点击【环境变量】</p><p><img src="2-12.png" alt="2-12"></p><p>选中用户变量中的【Path】变量，然后点击【编辑】</p><p><img src="2-13.png" alt="2-13"></p><p>点击【新建】，填写node_global文件夹的路径</p><p><img src="2-14.png" alt="2-14"></p><p>在系统变量中【新建】NODE_PATH变量，变量的值为node_global文件夹的路径加node_modules，全部新建好了之后点击确定进行保存</p><p><img src="2-15.png" alt="2-15"></p><h1 id="第三步-创建Github代码仓库"><a href="#第三步-创建Github代码仓库" class="headerlink" title="第三步:创建Github代码仓库"></a>第三步:创建Github代码仓库</h1><p>进入GitHub，点击头像，选着【Your repositories】进入仓库页面</p><p><img src="3-1.png" alt="3-1"></p><p>点击【New】按钮新建仓库</p><p><img src="3-2.png" alt="3-2"></p><p>新建的仓库名格式为github用户名.github.io</p><p><img src="3-3.png" alt="3-3"></p><p>点击 【creating a new file】新建一个文件</p><p><img src="3-4.png" alt="3-4"></p><p>新建的文件名为：<code>index.html</code>,内容随便写</p><p><img src="3-5.png" alt="3-5"></p><p>新建完成后点击【Commit new file】保存</p><p><img src="3-6.png" alt="3-6"></p><p>最后在浏览器中输入网址：https://用户名.github.io，如果可以成功访问到刚刚创建的文件就是成功了，如果访问不到可能就是在创建仓库的时候名称弄错了或者</p><p>是网址弄错了，也还有可能是创建文件的时候文件名搞错了。</p><h1 id="第四步-安装Hexo"><a href="#第四步-安装Hexo" class="headerlink" title="第四步:安装Hexo"></a>第四步:安装Hexo</h1><p>直接打开cmd窗口输入下面命令开始安装Hexo</p><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs avrasm">npm install -g hexo-<span class="hljs-keyword">cli</span><br></code></pre></td></tr></table></figure><p><img src="4-1.png" alt="4-1"></p><p>如果出现下面这种报错就用管理员方式打开CMD窗口在进行安装</p><p><img src="4-2.png" alt="4-2"></p><p>安装完成后输入<code>hexo -v</code>查看版本，如果可以查看到版本就是安装成功了</p><p><img src="4-3.png" alt="4-3"></p><p>在随便一个盘创建一个空的文件夹，需要自己可以找到的地方就饿可以，文件夹的名称最好是英文的</p><p><img src="4-4.png" alt="4-4"></p><p>在CMD窗口中切换到刚刚创建的文件夹</p><p><img src="4-5.png" alt="4-5"></p><p>输入以下命令创建一个项目并且初始化</p><figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs mipsasm">hexo init hexo-<span class="hljs-keyword">blog</span><br><span class="hljs-keyword"></span>cd hexo-<span class="hljs-keyword">blog</span><br><span class="hljs-keyword"></span>npm <span class="hljs-keyword">install</span><br></code></pre></td></tr></table></figure><p><img src="4-6.png" alt="4-6"></p><p>输入以下命令进行本地启动</p><figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs axapta">hexo g<br>hexo <span class="hljs-keyword">server</span><br></code></pre></td></tr></table></figure><p><img src="4-7.png" alt="4-7"></p><p>在浏览器中访问<code>http://localhost:4000</code>，可以看到默认的主题就成功了</p><p><img src="4-8.png" alt="4-8"></p><h1 id="第五步-更换主题"><a href="#第五步-更换主题" class="headerlink" title="第五步:更换主题"></a>第五步:更换主题</h1><p>嫌弃默认的主题太难看了，那么可以自己更换，免费的主题在谷歌和Github上都有人分享的，找到自己喜欢的主题，下载下来，我这里使用的是fluid这个主题，这</p><p>个主题在Github上开源的，进入主题的代码仓库，点击最新版进行下载。</p><p>主题地址：<a href="https://github.com/fluid-dev/hexo-theme-fluid">https://github.com/fluid-dev/hexo-theme-fluid</a></p><p><img src="5-1.png" alt="5-1"></p><p>下载完成后解压文件，并且把解压出来的文件夹重命名为<code>fluid</code>，然后复制到项目下面的themes文件夹里面</p><p><img src="5-2.png" alt="5-2"></p><p>找到刚刚创建的项目下的_config.yml文件</p><p><img src="5-3.png" alt="5-3"></p><p>打开文件进行修改，如果没有代码编辑软件的可以直接用记事本修改，需要修改<code>theme: landscape</code>和<code>language: en</code></p><p>把<code>theme: landscape</code>修改成<code>theme: fluid</code>，这个代码是控制使用的主题的</p><p><img src="5-4.png" alt="5-4"></p><p>把<code>language: en</code>修改成<code>language: zh-CN</code>，这个是语言，默认的英文</p><p><img src="5-5.png" alt="5-5"></p><p>修改完成后保存，这个主题默认是没有【关于】页面的，需要手动创建的，在CMD窗口中输入下面的命令进行【关于】页面的创建</p><figure class="highlight haxe"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs haxe">hexo <span class="hljs-keyword">new</span> <span class="hljs-type">page</span> about<br></code></pre></td></tr></table></figure><p><img src="5-6.png" alt="5-6"></p><p>使用下面命令进行本地启动，然后在到<a href="http://localhost:4000去预览">http://localhost:4000去预览</a></p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">hexo g -d</span><br><span class="hljs-attribute">hexo s</span><br></code></pre></td></tr></table></figure><p><img src="5-8.png" alt="5-8"></p><h1 id="第六步-创建文章"><a href="#第六步-创建文章" class="headerlink" title="第六步:创建文章"></a>第六步:创建文章</h1><p>先修改博客目录下的_config.yml文件，把<code>post_asset_folder: false</code>改成<code>post_asset_folder: true</code>，这个配置是为了在生成文章的时候生成一个和文章名称相同的文件夹用于存储文章中的图片等。</p><p><img src="6-1.png" alt="6-1"></p><p>创建文章的命令为：<code>hexo new post 文章名称</code></p><p>执行下面这个命令创建一个测试文章</p><figure class="highlight haxe"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs haxe">hexo <span class="hljs-keyword">new</span> <span class="hljs-type">post</span> 测试文章<br></code></pre></td></tr></table></figure><p><img src="6-2.png" alt="6-2"></p><p>执行完命令后我们就可以在source_posts目录下看到刚刚创建的文章和一个同名的文件夹</p><p><img src="6-3.png" alt="6-3"></p><p>往文件夹里面丢一张图片</p><p><img src="6-4.png" alt="6-4"></p><p>打开测试文章.md文件，然后开始编辑，这里就说一下图片的引用，具体的MD语法这里就不说了</p><p><img src="6-5.png" alt="6-5"></p><p>再次执行下面命令进行本地启动</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">hexo g -d</span><br><span class="hljs-attribute">hexo s</span><br></code></pre></td></tr></table></figure><p><img src="6-6.png" alt="6-6"></p><p>在浏览器中访问<a href="http://localhost:4000，可以看到刚刚添加的文章了">http://localhost:4000，可以看到刚刚添加的文章了</a></p><p><img src="6-7.png" alt="6-7"></p><h1 id="第七步-个性化页面"><a href="#第七步-个性化页面" class="headerlink" title="第七步:个性化页面"></a>第七步:个性化页面</h1><h2 id="修改浏览器tab页面名称"><a href="#修改浏览器tab页面名称" class="headerlink" title="修改浏览器tab页面名称"></a>修改浏览器tab页面名称</h2><p>打开博客目录下的_config.yml文件，修改里面的title字段</p><p><img src="7-1.png" alt="7-1"></p><h2 id="修改博客标题"><a href="#修改博客标题" class="headerlink" title="修改博客标题"></a>修改博客标题</h2><p>打开博客目录下的themes\fluid下的_config.yml，修改blog_title字段</p><p><img src="7-2.png" alt="7-2"></p><h2 id="修改主页中间的的文字"><a href="#修改主页中间的的文字" class="headerlink" title="修改主页中间的的文字"></a>修改主页中间的的文字</h2><p>打开博客目录下的 themes\fluid 下 _config.yml 中的 text 字段。</p><p><img src="7-3.png" alt="7-3"></p><p>修改完成之后我们在本地启动一次就可以看到修改后的效果了</p><p><img src="7-4.png" alt="7-4"></p><h1 id="第八步-添加阅读量统计"><a href="#第八步-添加阅读量统计" class="headerlink" title="第八步:添加阅读量统计"></a>第八步:添加阅读量统计</h1><p>需要添加阅读量统计的话需要借助别的服务来添加的，如果不想添加的话可以跳过这个步骤</p><h2 id="申请LeanCloud账号并创建应用"><a href="#申请LeanCloud账号并创建应用" class="headerlink" title="申请LeanCloud账号并创建应用"></a>申请LeanCloud账号并创建应用</h2><p>进入LeanCloud官网进行注册<br>LeanCloud官网：<a href="https://console.leancloud.cn/apps">https://console.leancloud.cn/apps</a></p><p><img src="8-1.png" alt="8-1"></p><p>注册完成后登录进去进行实名认证</p><p><img src="8-2.png" alt="8-2"></p><p>验证邮箱</p><p><img src="8-3.png" alt="8-3"></p><p>验证邮箱完成后点击网站的LOGO回到主页，然后点击【创建应用】，应用名称根据自己喜好来填，选择【开发版】，然后点【创建】</p><p><img src="8-4.png" alt="8-4"></p><p>打开应用的设置，找到【应用凭证】，找到之后记录下来AppID 和 AppKey，这个后面需要用到的</p><p><img src="8-5.png" alt="8-5"></p><p>打开打开主题目录 themes\fluid下的 _config.yml 文件，然后打开统计开关</p><p><img src="8-6.png" alt="8-6"></p><p>配置leancloud的app_id和app_key</p><p><img src="8-7.png" alt="8-7"></p><p>打开计数功能，统计来源改为 leancloud</p><p><img src="8-8.png" alt="8-8"></p><p>页面底部展示网站的 PV、UV 统计数</p><p><img src="8-9.png" alt="8-9"></p><p>本地启动后预览看看</p><p><img src="8-10.png" alt="8-10"></p><p><img src="8-10-1.png" alt="8-10-1"></p><h1 id="第九步-添加评论功能"><a href="#第九步-添加评论功能" class="headerlink" title="第九步:添加评论功能"></a>第九步:添加评论功能</h1><p>打开主题目录 themes\fluid下的 _config.yml 文件，找到评论插件，修改以下配置</p><p><img src="9-1.png" alt="9-1"></p><p>配置 LeanCloud 的 appId 和 appkey</p><p><img src="9-2.png" alt="9-2"></p><p>重新部署后就可以看到评论功能已经打开了</p><p><img src="9-3.png" alt="9-3"></p><h1 id="第十步-部署到Github"><a href="#第十步-部署到Github" class="headerlink" title="第十步:部署到Github"></a>第十步:部署到Github</h1><p>先使用下面命令安装hexo-deployer-git</p><figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ada">npm install hexo-deployer-git <span class="hljs-comment">--save</span><br></code></pre></td></tr></table></figure><p><img src="10-1.png" alt="10-1"></p><p>修改博客更目录下的_config.yml</p><p><img src="10-2.png" alt="10-2"></p><p>token是需要在Github上创建的，创建方式如图</p><p><img src="10-3.png" alt="10-3"></p><p>最后就是部署到Githun上，用下面命令部署</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">hexo g -d</span><br></code></pre></td></tr></table></figure><p>部署成功过后就可以访问了</p><p><img src="10-4.png" alt="10-4"></p><h1 id="结尾彩蛋"><a href="#结尾彩蛋" class="headerlink" title="结尾彩蛋"></a>结尾彩蛋</h1><p><img src="0-0.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术共享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>博客</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/1985/10/26/hello-world/"/>
+    <url>/1985/10/26/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>

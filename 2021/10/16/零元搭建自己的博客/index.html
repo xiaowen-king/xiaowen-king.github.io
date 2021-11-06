@@ -1,0 +1,770 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
+  <link rel="icon" href="/img/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="description" content="小星星的博客">
+  <meta name="author" content="John Doe">
+  <meta name="keywords" content="">
+  <meta name="description" content="第一步:安装Git进入Git官网,下载和自己电脑系统对应的版本进行安装  下载完成后开始安装,点击【下一步】  修改一下安装路径，然后点击【下一步】，如果自己C盘够用也可以直接安装  然后一直点击【下一步】，直到安装完成  安装完成后在电脑桌面上右键出现 【Git GUI Here】和【Git Bash Here】这两个选项就是安装成功了  右键，选择【Git Bash Here】打开终端，输入以">
+<meta property="og:type" content="article">
+<meta property="og:title" content="零元搭建自己的博客">
+<meta property="og:url" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/index.html">
+<meta property="og:site_name" content="小星星的博客">
+<meta property="og:description" content="第一步:安装Git进入Git官网,下载和自己电脑系统对应的版本进行安装  下载完成后开始安装,点击【下一步】  修改一下安装路径，然后点击【下一步】，如果自己C盘够用也可以直接安装  然后一直点击【下一步】，直到安装完成  安装完成后在电脑桌面上右键出现 【Git GUI Here】和【Git Bash Here】这两个选项就是安装成功了  右键，选择【Git Bash Here】打开终端，输入以">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/1-1.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/1-2.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/1-3.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/1-4.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/1-5.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/1-6.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/2-1.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/2-2.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/2-3.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/2-4.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/2-5.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/2-6.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/2-7.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/2-8.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/2-9.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/2-10.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/2-11.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/2-12.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/2-13.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/2-14.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/2-15.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/3-1.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/3-2.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/3-3.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/3-4.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/3-5.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/3-6.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/4-1.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/4-2.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/4-3.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/4-4.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/4-5.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/4-6.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/4-7.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/4-8.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/5-1.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/5-2.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/5-3.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/5-4.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/5-5.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/5-6.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/5-8.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/6-1.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/6-2.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/6-3.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/6-4.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/6-5.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/6-6.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/6-7.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/7-1.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/7-2.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/7-3.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/7-4.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/8-1.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/8-2.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/8-3.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/8-4.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/8-5.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/8-6.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/8-7.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/8-8.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/8-9.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/8-10.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/8-10-1.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/9-1.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/9-2.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/9-3.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/10-1.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/10-2.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/10-3.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/10-4.png">
+<meta property="og:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/0-0.jpg">
+<meta property="article:published_time" content="2021-10-16T14:18:37.000Z">
+<meta property="article:modified_time" content="2021-10-17T09:26:17.390Z">
+<meta property="article:author" content="John Doe">
+<meta property="article:tag" content="博客">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://example.com/2021/10/16/%E9%9B%B6%E5%85%83%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/1-1.png">
+  
+  <title>零元搭建自己的博客 - 小星星的博客</title>
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10/styles/github-gist.min.css" />
+    
+  
+
+  
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.css" />
+  
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.12","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"CBhowwS9f3Kmj6jy3pxLHbNI-gzGzoHsz","app_key":"WY9xcABitW5kba6I1brdeW9M","server_url":null,"path":"window.location.pathname"}},"search_path":"/local-search.xml"};
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+
+<body>
+  <header style="height: 70vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>小星星的博客</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner" id="banner" parallax=true
+         style="background: url('/img/default.png') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="零元搭建自己的博客">
+              
+            </span>
+
+            
+              <div class="mt-3">
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2021-10-16 22:18" pubdate>
+        2021年10月16日 晚上
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      3.2k 字
+    </span>
+  
+
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      10 分钟
+    </span>
+  
+
+  
+  
+    
+      <!-- LeanCloud 统计文章PV -->
+      <span id="leancloud-page-views-container" class="post-meta" style="display: none">
+        <i class="iconfont icon-eye" aria-hidden="true"></i>
+        <span id="leancloud-page-views"></span> 次
+      </span>
+    
+  
+</div>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">零元搭建自己的博客</h1>
+            
+            <div class="markdown-body">
+              <h1 id="第一步-安装Git"><a href="#第一步-安装Git" class="headerlink" title="第一步:安装Git"></a>第一步:安装Git</h1><p>进入<a target="_blank" rel="noopener" href="https://git-scm.com/">Git官网</a>,下载和自己电脑系统对应的版本进行安装</p>
+<p><img src="1-1.png" srcset="/img/loading.gif" lazyload alt="1-1"></p>
+<p>下载完成后开始安装,点击【下一步】</p>
+<p><img src="1-2.png" srcset="/img/loading.gif" lazyload alt="1-2"></p>
+<p>修改一下安装路径，然后点击【下一步】，如果自己C盘够用也可以直接安装</p>
+<p><img src="1-3.png" srcset="/img/loading.gif" lazyload alt="1-3"></p>
+<p>然后一直点击【下一步】，直到安装完成</p>
+<p><img src="1-4.png" srcset="/img/loading.gif" lazyload alt="1-4"></p>
+<p>安装完成后在电脑桌面上右键出现 【Git GUI Here】和【Git Bash Here】这两个选项就是安装成功了</p>
+<p><img src="1-5.png" srcset="/img/loading.gif" lazyload alt="1-5"></p>
+<p>右键，选择【Git Bash Here】打开终端，输入以下命令</p>
+<figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs verilog">git <span class="hljs-keyword">config</span> --<span class="hljs-keyword">global</span> user<span class="hljs-variable">.name</span> <span class="hljs-string">&quot;用户名&quot;</span><br>git <span class="hljs-keyword">config</span> --<span class="hljs-keyword">global</span> user<span class="hljs-variable">.email</span> <span class="hljs-string">&quot;邮箱&quot;</span><br></code></pre></td></tr></table></figure>
+
+<p><img src="1-6.png" srcset="/img/loading.gif" lazyload alt="1-6"></p>
+<h1 id="第二步-安装NodeJS"><a href="#第二步-安装NodeJS" class="headerlink" title="第二步:安装NodeJS"></a>第二步:安装NodeJS</h1><p>进入<a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/download/">NodeJS官网</a>下载和自己系统对应的安装包直接安装</p>
+<p><img src="2-1.png" srcset="/img/loading.gif" lazyload alt="2-1"></p>
+<p>下载完成后打开安装，点击【下一步】</p>
+<p><img src="2-2.png" srcset="/img/loading.gif" lazyload alt="2-2"></p>
+<p>勾选同意协议选项，点击【下一步】</p>
+<p><img src="2-3.png" srcset="/img/loading.gif" lazyload alt="2-3"></p>
+<p>可以修改安装路径，如果C盘够大可以直接点击【下一步】</p>
+<p><img src="2-4.png" srcset="/img/loading.gif" lazyload alt="2-4"></p>
+<p>一直点击【下一步】，直到安装完成</p>
+<p><img src="2-5.png" srcset="/img/loading.gif" lazyload alt="2-5"></p>
+<p>打开CMD窗口，执行<code>node -v</code>命令查看版本，能成功执行就说明安装成功了</p>
+<p><img src="2-6.png" srcset="/img/loading.gif" lazyload alt="2-6"></p>
+<p>在安装node的时候npm同时也安装上了，执行<code>npm -v</code>查看npm版本，能成功执行说明安装成功</p>
+<p><img src="2-7.png" srcset="/img/loading.gif" lazyload alt="2-7"></p>
+<p>下面就是修改全局包配置，不上必须的，可以不用修改</p>
+<p>下载全局包是，默认保存在C盘下，我不想要全局包保存在C盘下，所以我需要修改一下</p>
+<p>首先在安装目录创建两个文件夹，node_global文件夹用于存放全局包，node_cache是node的缓存</p>
+<p><img src="2-8.png" srcset="/img/loading.gif" lazyload alt="2-8"></p>
+<p>在cmd中执行下面两行命令，注意自己刚刚创建的文件夹的路径和命令中的对不对，不对的自己改一下</p>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs routeros">npm<span class="hljs-built_in"> config </span><span class="hljs-builtin-name">set</span><span class="hljs-built_in"> prefix </span><span class="hljs-string">&quot;D:\nodejs\node_global&quot;</span><br>npm<span class="hljs-built_in"> config </span><span class="hljs-builtin-name">set</span> cache <span class="hljs-string">&quot;D:\nodejs\node_cache&quot;</span><br></code></pre></td></tr></table></figure>
+
+<p><img src="2-9.png" srcset="/img/loading.gif" lazyload alt="2-9"></p>
+<p>然后修改电脑变量，首先在桌面上【右键】此电脑，打开【属性】</p>
+<p><img src="2-10.png" srcset="/img/loading.gif" lazyload alt="2-10"></p>
+<p>点击【高级系统设置】</p>
+<p><img src="2-11.png" srcset="/img/loading.gif" lazyload alt="2-11"></p>
+<p>点击【环境变量】</p>
+<p><img src="2-12.png" srcset="/img/loading.gif" lazyload alt="2-12"></p>
+<p>选中用户变量中的【Path】变量，然后点击【编辑】</p>
+<p><img src="2-13.png" srcset="/img/loading.gif" lazyload alt="2-13"></p>
+<p>点击【新建】，填写node_global文件夹的路径</p>
+<p><img src="2-14.png" srcset="/img/loading.gif" lazyload alt="2-14"></p>
+<p>在系统变量中【新建】NODE_PATH变量，变量的值为node_global文件夹的路径加node_modules，全部新建好了之后点击确定进行保存</p>
+<p><img src="2-15.png" srcset="/img/loading.gif" lazyload alt="2-15"></p>
+<h1 id="第三步-创建Github代码仓库"><a href="#第三步-创建Github代码仓库" class="headerlink" title="第三步:创建Github代码仓库"></a>第三步:创建Github代码仓库</h1><p>进入GitHub，点击头像，选着【Your repositories】进入仓库页面</p>
+<p><img src="3-1.png" srcset="/img/loading.gif" lazyload alt="3-1"></p>
+<p>点击【New】按钮新建仓库</p>
+<p><img src="3-2.png" srcset="/img/loading.gif" lazyload alt="3-2"></p>
+<p>新建的仓库名格式为github用户名.github.io</p>
+<p><img src="3-3.png" srcset="/img/loading.gif" lazyload alt="3-3"></p>
+<p>点击 【creating a new file】新建一个文件</p>
+<p><img src="3-4.png" srcset="/img/loading.gif" lazyload alt="3-4"></p>
+<p>新建的文件名为：<code>index.html</code>,内容随便写</p>
+<p><img src="3-5.png" srcset="/img/loading.gif" lazyload alt="3-5"></p>
+<p>新建完成后点击【Commit new file】保存</p>
+<p><img src="3-6.png" srcset="/img/loading.gif" lazyload alt="3-6"></p>
+<p>最后在浏览器中输入网址：https://用户名.github.io，如果可以成功访问到刚刚创建的文件就是成功了，如果访问不到可能就是在创建仓库的时候名称弄错了或者</p>
+<p>是网址弄错了，也还有可能是创建文件的时候文件名搞错了。</p>
+<h1 id="第四步-安装Hexo"><a href="#第四步-安装Hexo" class="headerlink" title="第四步:安装Hexo"></a>第四步:安装Hexo</h1><p>直接打开cmd窗口输入下面命令开始安装Hexo</p>
+<figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs avrasm">npm install -g hexo-<span class="hljs-keyword">cli</span><br></code></pre></td></tr></table></figure>
+
+<p><img src="4-1.png" srcset="/img/loading.gif" lazyload alt="4-1"></p>
+<p>如果出现下面这种报错就用管理员方式打开CMD窗口在进行安装</p>
+<p><img src="4-2.png" srcset="/img/loading.gif" lazyload alt="4-2"></p>
+<p>安装完成后输入<code>hexo -v</code>查看版本，如果可以查看到版本就是安装成功了</p>
+<p><img src="4-3.png" srcset="/img/loading.gif" lazyload alt="4-3"></p>
+<p>在随便一个盘创建一个空的文件夹，需要自己可以找到的地方就饿可以，文件夹的名称最好是英文的</p>
+<p><img src="4-4.png" srcset="/img/loading.gif" lazyload alt="4-4"></p>
+<p>在CMD窗口中切换到刚刚创建的文件夹</p>
+<p><img src="4-5.png" srcset="/img/loading.gif" lazyload alt="4-5"></p>
+<p>输入以下命令创建一个项目并且初始化</p>
+<figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs mipsasm">hexo init hexo-<span class="hljs-keyword">blog</span><br><span class="hljs-keyword"></span>cd hexo-<span class="hljs-keyword">blog</span><br><span class="hljs-keyword"></span>npm <span class="hljs-keyword">install</span><br></code></pre></td></tr></table></figure>
+
+<p><img src="4-6.png" srcset="/img/loading.gif" lazyload alt="4-6"></p>
+<p>输入以下命令进行本地启动</p>
+<figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs axapta">hexo g<br>hexo <span class="hljs-keyword">server</span><br></code></pre></td></tr></table></figure>
+
+<p><img src="4-7.png" srcset="/img/loading.gif" lazyload alt="4-7"></p>
+<p>在浏览器中访问<code>http://localhost:4000</code>，可以看到默认的主题就成功了</p>
+<p><img src="4-8.png" srcset="/img/loading.gif" lazyload alt="4-8"></p>
+<h1 id="第五步-更换主题"><a href="#第五步-更换主题" class="headerlink" title="第五步:更换主题"></a>第五步:更换主题</h1><p>嫌弃默认的主题太难看了，那么可以自己更换，免费的主题在谷歌和Github上都有人分享的，找到自己喜欢的主题，下载下来，我这里使用的是fluid这个主题，这</p>
+<p>个主题在Github上开源的，进入主题的代码仓库，点击最新版进行下载。</p>
+<p>主题地址：<a target="_blank" rel="noopener" href="https://github.com/fluid-dev/hexo-theme-fluid">https://github.com/fluid-dev/hexo-theme-fluid</a></p>
+<p><img src="5-1.png" srcset="/img/loading.gif" lazyload alt="5-1"></p>
+<p>下载完成后解压文件，并且把解压出来的文件夹重命名为<code>fluid</code>，然后复制到项目下面的themes文件夹里面</p>
+<p><img src="5-2.png" srcset="/img/loading.gif" lazyload alt="5-2"></p>
+<p>找到刚刚创建的项目下的_config.yml文件</p>
+<p><img src="5-3.png" srcset="/img/loading.gif" lazyload alt="5-3"></p>
+<p>打开文件进行修改，如果没有代码编辑软件的可以直接用记事本修改，需要修改<code>theme: landscape</code>和<code>language: en</code></p>
+<p>把<code>theme: landscape</code>修改成<code>theme: fluid</code>，这个代码是控制使用的主题的</p>
+<p><img src="5-4.png" srcset="/img/loading.gif" lazyload alt="5-4"></p>
+<p>把<code>language: en</code>修改成<code>language: zh-CN</code>，这个是语言，默认的英文</p>
+<p><img src="5-5.png" srcset="/img/loading.gif" lazyload alt="5-5"></p>
+<p>修改完成后保存，这个主题默认是没有【关于】页面的，需要手动创建的，在CMD窗口中输入下面的命令进行【关于】页面的创建</p>
+<figure class="highlight haxe"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs haxe">hexo <span class="hljs-keyword">new</span> <span class="hljs-type">page</span> about<br></code></pre></td></tr></table></figure>
+
+<p><img src="5-6.png" srcset="/img/loading.gif" lazyload alt="5-6"></p>
+<p>使用下面命令进行本地启动，然后在到<a href="http://localhost:4000去预览">http://localhost:4000去预览</a></p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">hexo g -d</span><br><span class="hljs-attribute">hexo s</span><br></code></pre></td></tr></table></figure>
+
+<p><img src="5-8.png" srcset="/img/loading.gif" lazyload alt="5-8"></p>
+<h1 id="第六步-创建文章"><a href="#第六步-创建文章" class="headerlink" title="第六步:创建文章"></a>第六步:创建文章</h1><p>先修改博客目录下的_config.yml文件，把<code>post_asset_folder: false</code>改成<code>post_asset_folder: true</code>，这个配置是为了在生成文章的时候生成一个和文章名称相同的文件夹用于存储文章中的图片等。</p>
+<p><img src="6-1.png" srcset="/img/loading.gif" lazyload alt="6-1"></p>
+<p>创建文章的命令为：<code>hexo new post 文章名称</code></p>
+<p>执行下面这个命令创建一个测试文章</p>
+<figure class="highlight haxe"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs haxe">hexo <span class="hljs-keyword">new</span> <span class="hljs-type">post</span> 测试文章<br></code></pre></td></tr></table></figure>
+
+<p><img src="6-2.png" srcset="/img/loading.gif" lazyload alt="6-2"></p>
+<p>执行完命令后我们就可以在source_posts目录下看到刚刚创建的文章和一个同名的文件夹</p>
+<p><img src="6-3.png" srcset="/img/loading.gif" lazyload alt="6-3"></p>
+<p>往文件夹里面丢一张图片</p>
+<p><img src="6-4.png" srcset="/img/loading.gif" lazyload alt="6-4"></p>
+<p>打开测试文章.md文件，然后开始编辑，这里就说一下图片的引用，具体的MD语法这里就不说了</p>
+<p><img src="6-5.png" srcset="/img/loading.gif" lazyload alt="6-5"></p>
+<p>再次执行下面命令进行本地启动</p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">hexo g -d</span><br><span class="hljs-attribute">hexo s</span><br></code></pre></td></tr></table></figure>
+
+<p><img src="6-6.png" srcset="/img/loading.gif" lazyload alt="6-6"></p>
+<p>在浏览器中访问<a href="http://localhost:4000，可以看到刚刚添加的文章了">http://localhost:4000，可以看到刚刚添加的文章了</a></p>
+<p><img src="6-7.png" srcset="/img/loading.gif" lazyload alt="6-7"></p>
+<h1 id="第七步-个性化页面"><a href="#第七步-个性化页面" class="headerlink" title="第七步:个性化页面"></a>第七步:个性化页面</h1><h2 id="修改浏览器tab页面名称"><a href="#修改浏览器tab页面名称" class="headerlink" title="修改浏览器tab页面名称"></a>修改浏览器tab页面名称</h2><p>打开博客目录下的_config.yml文件，修改里面的title字段</p>
+<p><img src="7-1.png" srcset="/img/loading.gif" lazyload alt="7-1"></p>
+<h2 id="修改博客标题"><a href="#修改博客标题" class="headerlink" title="修改博客标题"></a>修改博客标题</h2><p>打开博客目录下的themes\fluid下的_config.yml，修改blog_title字段</p>
+<p><img src="7-2.png" srcset="/img/loading.gif" lazyload alt="7-2"></p>
+<h2 id="修改主页中间的的文字"><a href="#修改主页中间的的文字" class="headerlink" title="修改主页中间的的文字"></a>修改主页中间的的文字</h2><p>打开博客目录下的 themes\fluid 下 _config.yml 中的 text 字段。</p>
+<p><img src="7-3.png" srcset="/img/loading.gif" lazyload alt="7-3"></p>
+<p>修改完成之后我们在本地启动一次就可以看到修改后的效果了</p>
+<p><img src="7-4.png" srcset="/img/loading.gif" lazyload alt="7-4"></p>
+<h1 id="第八步-添加阅读量统计"><a href="#第八步-添加阅读量统计" class="headerlink" title="第八步:添加阅读量统计"></a>第八步:添加阅读量统计</h1><p>需要添加阅读量统计的话需要借助别的服务来添加的，如果不想添加的话可以跳过这个步骤</p>
+<h2 id="申请LeanCloud账号并创建应用"><a href="#申请LeanCloud账号并创建应用" class="headerlink" title="申请LeanCloud账号并创建应用"></a>申请LeanCloud账号并创建应用</h2><p>进入LeanCloud官网进行注册<br>LeanCloud官网：<a target="_blank" rel="noopener" href="https://console.leancloud.cn/apps">https://console.leancloud.cn/apps</a></p>
+<p><img src="8-1.png" srcset="/img/loading.gif" lazyload alt="8-1"></p>
+<p>注册完成后登录进去进行实名认证</p>
+<p><img src="8-2.png" srcset="/img/loading.gif" lazyload alt="8-2"></p>
+<p>验证邮箱</p>
+<p><img src="8-3.png" srcset="/img/loading.gif" lazyload alt="8-3"></p>
+<p>验证邮箱完成后点击网站的LOGO回到主页，然后点击【创建应用】，应用名称根据自己喜好来填，选择【开发版】，然后点【创建】</p>
+<p><img src="8-4.png" srcset="/img/loading.gif" lazyload alt="8-4"></p>
+<p>打开应用的设置，找到【应用凭证】，找到之后记录下来AppID 和 AppKey，这个后面需要用到的</p>
+<p><img src="8-5.png" srcset="/img/loading.gif" lazyload alt="8-5"></p>
+<p>打开打开主题目录 themes\fluid下的 _config.yml 文件，然后打开统计开关</p>
+<p><img src="8-6.png" srcset="/img/loading.gif" lazyload alt="8-6"></p>
+<p>配置leancloud的app_id和app_key</p>
+<p><img src="8-7.png" srcset="/img/loading.gif" lazyload alt="8-7"></p>
+<p>打开计数功能，统计来源改为 leancloud</p>
+<p><img src="8-8.png" srcset="/img/loading.gif" lazyload alt="8-8"></p>
+<p>页面底部展示网站的 PV、UV 统计数</p>
+<p><img src="8-9.png" srcset="/img/loading.gif" lazyload alt="8-9"></p>
+<p>本地启动后预览看看</p>
+<p><img src="8-10.png" srcset="/img/loading.gif" lazyload alt="8-10"></p>
+<p><img src="8-10-1.png" srcset="/img/loading.gif" lazyload alt="8-10-1"></p>
+<h1 id="第九步-添加评论功能"><a href="#第九步-添加评论功能" class="headerlink" title="第九步:添加评论功能"></a>第九步:添加评论功能</h1><p>打开主题目录 themes\fluid下的 _config.yml 文件，找到评论插件，修改以下配置</p>
+<p><img src="9-1.png" srcset="/img/loading.gif" lazyload alt="9-1"></p>
+<p>配置 LeanCloud 的 appId 和 appkey</p>
+<p><img src="9-2.png" srcset="/img/loading.gif" lazyload alt="9-2"></p>
+<p>重新部署后就可以看到评论功能已经打开了</p>
+<p><img src="9-3.png" srcset="/img/loading.gif" lazyload alt="9-3"></p>
+<h1 id="第十步-部署到Github"><a href="#第十步-部署到Github" class="headerlink" title="第十步:部署到Github"></a>第十步:部署到Github</h1><p>先使用下面命令安装hexo-deployer-git</p>
+<figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ada">npm install hexo-deployer-git <span class="hljs-comment">--save</span><br></code></pre></td></tr></table></figure>
+
+<p><img src="10-1.png" srcset="/img/loading.gif" lazyload alt="10-1"></p>
+<p>修改博客更目录下的_config.yml</p>
+<p><img src="10-2.png" srcset="/img/loading.gif" lazyload alt="10-2"></p>
+<p>token是需要在Github上创建的，创建方式如图</p>
+<p><img src="10-3.png" srcset="/img/loading.gif" lazyload alt="10-3"></p>
+<p>最后就是部署到Githun上，用下面命令部署</p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">hexo g -d</span><br></code></pre></td></tr></table></figure>
+
+<p>部署成功过后就可以访问了</p>
+<p><img src="10-4.png" srcset="/img/loading.gif" lazyload alt="10-4"></p>
+<h1 id="结尾彩蛋"><a href="#结尾彩蛋" class="headerlink" title="结尾彩蛋"></a>结尾彩蛋</h1><p><img src="0-0.jpg" srcset="/img/loading.gif" lazyload></p>
+
+            </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/%E6%8A%80%E6%9C%AF%E5%85%B1%E4%BA%AB/">技术共享</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/%E5%8D%9A%E5%AE%A2/">博客</a>
+                    
+                  </div>
+                
+              </div>
+              
+                <p class="note note-warning">
+                  
+                    本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！
+                  
+                </p>
+              
+              
+                <div class="post-prevnext">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2021/10/17/NPS%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">NPS内网穿透</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/1985/10/26/hello-world/">
+                        <span class="hidden-mobile">Hello World</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+              <!-- Comments -->
+              <article class="comments" id="comments" lazyload>
+                
+                  
+                
+                
+  <div id="valine"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#valine', function() {
+      Fluid.utils.createScript('https://cdn.jsdelivr.net/npm/valine@1/dist/Valine.min.js', function() {
+        var options = Object.assign(
+          {"appId":"CBhowwS9f3Kmj6jy3pxLHbNI-gzGzoHsz","appKey":"WY9xcABitW5kba6I1brdeW9M","path":"window.location.pathname","placeholder":null,"avatar":"retro","meta":["nick","mail","link"],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":false,"recordIP":false,"serverURLs":"","emojiCDN":null,"emojiMaps":null,"enableQQ":false},
+          {
+            el: "#valine",
+            path: window.location.pathname
+          }
+        )
+        new Valine(options);
+        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
+          Fluid.plugins.initFancyBox('#valine .vcontent img:not(.vemoji)');
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+              </article>
+            
+          </article>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+  </div>
+  
+  <div class="statistics">
+    
+    
+
+    
+      
+        <!-- LeanCloud 统计PV -->
+        <span id="leancloud-site-pv-container" style="display: none">
+            总访问量 
+            <span id="leancloud-site-pv"></span>
+             次
+          </span>
+      
+      
+        <!-- LeanCloud 统计UV -->
+        <span id="leancloud-site-uv-container" style="display: none">
+            总访客数 
+            <span id="leancloud-site-uv"></span>
+             人
+          </span>
+      
+
+    
+  </div>
+
+
+  
+
+  
+</footer>
+
+
+  <!-- SCRIPTS -->
+  
+  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js" ></script>
+<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+  
+    <script  src="https://cdn.jsdelivr.net/npm/tocbot@4/dist/tocbot.min.js" ></script>
+  
+  
+    <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.js" ></script>
+  
+  
+    <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4/anchor.min.js" ></script>
+  
+  
+    <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js" ></script>
+  
+
+
+
+
+  <script defer src="/js/leancloud.js" ></script>
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2/lib/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var title = document.getElementById('subtitle').title;
+      
+      typing(title)
+      
+    })(window, document);
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="/js/boot.js" ></script>
+
+
+</body>
+</html>
