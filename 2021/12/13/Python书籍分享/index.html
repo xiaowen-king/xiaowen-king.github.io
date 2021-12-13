@@ -1,0 +1,710 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
+  <link rel="icon" href="/img/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="description" content="小星星的博客">
+  <meta name="author" content="John Doe">
+  <meta name="keywords" content="">
+  <meta name="description" content="简介本帖用于分享关于Python的书籍，PDF版本，持续更新中。 注意站长不看评论，技术性问题在关于页面可以找到站长的联系方式 更新列表   序号 书名 作者 分享日期    1 python编程从入门到实践第2版 埃里克·马瑟斯 2021-12-13   2 Python Cookbook（第3版） David Beazley Brian K,Jones 2021-12-13   3 Pytho">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Python书籍分享">
+<meta property="og:url" content="http://example.com/2021/12/13/Python%E4%B9%A6%E7%B1%8D%E5%88%86%E4%BA%AB/index.html">
+<meta property="og:site_name" content="小星星的博客">
+<meta property="og:description" content="简介本帖用于分享关于Python的书籍，PDF版本，持续更新中。 注意站长不看评论，技术性问题在关于页面可以找到站长的联系方式 更新列表   序号 书名 作者 分享日期    1 python编程从入门到实践第2版 埃里克·马瑟斯 2021-12-13   2 Python Cookbook（第3版） David Beazley Brian K,Jones 2021-12-13   3 Pytho">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/2021/12/13/Python%E4%B9%A6%E7%B1%8D%E5%88%86%E4%BA%AB/1.jpg">
+<meta property="og:image" content="http://example.com/2021/12/13/Python%E4%B9%A6%E7%B1%8D%E5%88%86%E4%BA%AB/2.jpg">
+<meta property="og:image" content="http://example.com/2021/12/13/Python%E4%B9%A6%E7%B1%8D%E5%88%86%E4%BA%AB/3.jpg">
+<meta property="og:image" content="http://example.com/2021/12/13/Python%E4%B9%A6%E7%B1%8D%E5%88%86%E4%BA%AB/4.jpg">
+<meta property="og:image" content="http://example.com/2021/12/13/Python%E4%B9%A6%E7%B1%8D%E5%88%86%E4%BA%AB/5.jpg">
+<meta property="og:image" content="http://example.com/2021/12/13/Python%E4%B9%A6%E7%B1%8D%E5%88%86%E4%BA%AB/6.jpg">
+<meta property="og:image" content="http://example.com/2021/12/13/Python%E4%B9%A6%E7%B1%8D%E5%88%86%E4%BA%AB/7.jpg">
+<meta property="og:image" content="http://example.com/2021/12/13/Python%E4%B9%A6%E7%B1%8D%E5%88%86%E4%BA%AB/8.jpg">
+<meta property="og:image" content="http://example.com/2021/12/13/Python%E4%B9%A6%E7%B1%8D%E5%88%86%E4%BA%AB/9.jpg">
+<meta property="og:image" content="http://example.com/2021/12/13/Python%E4%B9%A6%E7%B1%8D%E5%88%86%E4%BA%AB/10.jpg">
+<meta property="og:image" content="http://example.com/2021/12/13/Python%E4%B9%A6%E7%B1%8D%E5%88%86%E4%BA%AB/11.jpg">
+<meta property="og:image" content="http://example.com/2021/12/13/Python%E4%B9%A6%E7%B1%8D%E5%88%86%E4%BA%AB/12.jpg">
+<meta property="og:image" content="http://example.com/2021/12/13/Python%E4%B9%A6%E7%B1%8D%E5%88%86%E4%BA%AB/13.jpg">
+<meta property="og:image" content="http://example.com/2021/12/13/Python%E4%B9%A6%E7%B1%8D%E5%88%86%E4%BA%AB/14.png">
+<meta property="og:image" content="http://example.com/2021/12/13/Python%E4%B9%A6%E7%B1%8D%E5%88%86%E4%BA%AB/15.jpg">
+<meta property="article:published_time" content="2021-12-13T04:57:33.000Z">
+<meta property="article:modified_time" content="2021-12-13T05:44:27.480Z">
+<meta property="article:author" content="John Doe">
+<meta property="article:tag" content="书籍">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://example.com/2021/12/13/Python%E4%B9%A6%E7%B1%8D%E5%88%86%E4%BA%AB/1.jpg">
+  
+  <title>Python书籍分享 - 小星星的博客</title>
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10/styles/github-gist.min.css" />
+    
+  
+
+  
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.css" />
+  
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.12","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"CBhowwS9f3Kmj6jy3pxLHbNI-gzGzoHsz","app_key":"WY9xcABitW5kba6I1brdeW9M","server_url":null,"path":"window.location.pathname"}},"search_path":"/local-search.xml"};
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+
+<body>
+  <header style="height: 70vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>小星星的博客</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner" id="banner" parallax=true
+         style="background: url('/img/default.png') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="Python书籍分享">
+              
+            </span>
+
+            
+              <div class="mt-3">
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2021-12-13 12:57" pubdate>
+        2021年12月13日 下午
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      1.9k 字
+    </span>
+  
+
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      6 分钟
+    </span>
+  
+
+  
+  
+    
+      <!-- LeanCloud 统计文章PV -->
+      <span id="leancloud-page-views-container" class="post-meta" style="display: none">
+        <i class="iconfont icon-eye" aria-hidden="true"></i>
+        <span id="leancloud-page-views"></span> 次
+      </span>
+    
+  
+</div>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">Python书籍分享</h1>
+            
+            <div class="markdown-body">
+              <h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>本帖用于分享关于Python的书籍，PDF版本，持续更新中。</p>
+<h1 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h1><p>站长不看评论，技术性问题在关于页面可以找到站长的联系方式</p>
+<h1 id="更新列表"><a href="#更新列表" class="headerlink" title="更新列表"></a>更新列表</h1><table>
+<thead>
+<tr>
+<th align="center">序号</th>
+<th align="center">书名</th>
+<th align="center">作者</th>
+<th align="center">分享日期</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1</td>
+<td align="center">python编程从入门到实践第2版</td>
+<td align="center">埃里克·马瑟斯</td>
+<td align="center">2021-12-13</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Python Cookbook（第3版）</td>
+<td align="center">David Beazley Brian K,Jones</td>
+<td align="center">2021-12-13</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">Python编程快速上手-让繁琐工作自动化</td>
+<td align="center">AI Sweigart</td>
+<td align="center">2021-12-13</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">Python参考手册第4版修订版</td>
+<td align="center">David M.Beazley</td>
+<td align="center">2021-12-13</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Python高手之路</td>
+<td align="center">Julien Danjou</td>
+<td align="center">2021-12-13</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">Python网络数据采集</td>
+<td align="center">Ryan Mitchell</td>
+<td align="center">2021-12-13</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">Python语言及其应用</td>
+<td align="center">嵩天、礼欣、黄天羽</td>
+<td align="center">2021-12-13</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">笨办法学Python（中文第3版）</td>
+<td align="center">Zed Shaw</td>
+<td align="center">2021-12-13</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">笨办法学Python第四版</td>
+<td align="center">Zed Shaw</td>
+<td align="center">2021-12-13</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">父与子的编程之旅：与小卡特一起学Python</td>
+<td align="center">Warren Sande　Carter Sande</td>
+<td align="center">2021-12-13</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">可爱的Python</td>
+<td align="center">哲思社区</td>
+<td align="center">2021-12-13</td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">零基础入门学习Python</td>
+<td align="center">小甲鱼</td>
+<td align="center">2021-12-13</td>
+</tr>
+<tr>
+<td align="center">13</td>
+<td align="center">像计算机科学家一样思考Python</td>
+<td align="center">Allen B. Downey</td>
+<td align="center">2021-12-13</td>
+</tr>
+<tr>
+<td align="center">14</td>
+<td align="center">用Python写网络爬虫（第2版）</td>
+<td align="center">Katharine Jarmul Richard Lawson</td>
+<td align="center">2021-12-13</td>
+</tr>
+<tr>
+<td align="center">15</td>
+<td align="center">Python极客项目编程</td>
+<td align="center">Mahesh Venkitachalam</td>
+<td align="center">2021-12-13</td>
+</tr>
+</tbody></table>
+<h1 id="python编程从入门到实践第2版——埃里克·马瑟斯"><a href="#python编程从入门到实践第2版——埃里克·马瑟斯" class="headerlink" title="python编程从入门到实践第2版——埃里克·马瑟斯"></a>python编程从入门到实践第2版——埃里克·马瑟斯</h1><p>书名：python编程从入门到实践第2版</p>
+<p>出版社：人民邮电出版社</p>
+<p>作者：埃里克·马瑟斯</p>
+<p>下载地址：<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/zCHpqWRmsB6">点击下载</a></p>
+<p><img src="1.jpg" srcset="/img/loading.gif" lazyload></p>
+<h1 id="Python-Cookbook（第3版）——David-Beazley-Brian-K-Jones"><a href="#Python-Cookbook（第3版）——David-Beazley-Brian-K-Jones" class="headerlink" title="Python Cookbook（第3版）——David Beazley Brian K,Jones"></a>Python Cookbook（第3版）——David Beazley Brian K,Jones</h1><p>书名：Python Cookbook（第3版）</p>
+<p>出版社：人民邮电出版社</p>
+<p>作者：David Beazley Brian K,Jones</p>
+<p>下载地址：<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/oNLJq2ugzUg">点击下载</a></p>
+<p><img src="2.jpg" srcset="/img/loading.gif" lazyload></p>
+<h1 id="Python编程快速上手-让繁琐工作自动化——AI-Sweigart"><a href="#Python编程快速上手-让繁琐工作自动化——AI-Sweigart" class="headerlink" title="Python编程快速上手-让繁琐工作自动化——AI Sweigart"></a>Python编程快速上手-让繁琐工作自动化——AI Sweigart</h1><p>书名：Python编程快速上手-让繁琐工作自动化</p>
+<p>出版社：人民邮电出版社</p>
+<p>作者：AI Sweigart</p>
+<p>下载地址：<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/Y4EuZxegiNu">点击下载</a></p>
+<p><img src="3.jpg" srcset="/img/loading.gif" lazyload></p>
+<h1 id="Python参考手册第4版修订版——David-M-Beazley"><a href="#Python参考手册第4版修订版——David-M-Beazley" class="headerlink" title="Python参考手册第4版修订版——David M.Beazley"></a>Python参考手册第4版修订版——David M.Beazley</h1><p>书名：Python参考手册第4版修订版</p>
+<p>出版社：人民邮电出版社</p>
+<p>作者：David M.Beazley</p>
+<p>下载地址：<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/NnmUV6dWtHq">点击下载</a></p>
+<p><img src="4.jpg" srcset="/img/loading.gif" lazyload></p>
+<h1 id="Python高手之路——Julien-Danjou"><a href="#Python高手之路——Julien-Danjou" class="headerlink" title="Python高手之路——Julien Danjou"></a>Python高手之路——Julien Danjou</h1><p>书名：Python高手之路</p>
+<p>出版社：人民邮电出版社</p>
+<p>作者：Julien Danjou</p>
+<p>下载地址：<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/fW1b5ajPhb9">点击下载</a></p>
+<p><img src="5.jpg" srcset="/img/loading.gif" lazyload></p>
+<h1 id="Python网络数据采集——Ryan-Mitchell"><a href="#Python网络数据采集——Ryan-Mitchell" class="headerlink" title="Python网络数据采集——Ryan Mitchell"></a>Python网络数据采集——Ryan Mitchell</h1><p>书名：Python网络数据采集</p>
+<p>出版社：人民邮电出版社</p>
+<p>作者：Ryan Mitchell</p>
+<p>下载地址：<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/GF4fR1WS8iE">点击下载</a></p>
+<p><img src="6.jpg" srcset="/img/loading.gif" lazyload></p>
+<h1 id="Python语言及其应用——嵩天、礼欣、黄天羽"><a href="#Python语言及其应用——嵩天、礼欣、黄天羽" class="headerlink" title="Python语言及其应用——嵩天、礼欣、黄天羽"></a>Python语言及其应用——嵩天、礼欣、黄天羽</h1><p>书名：Python语言及其应用</p>
+<p>出版社：人民邮电出版社</p>
+<p>作者：嵩天、礼欣、黄天羽</p>
+<p>下载地址：<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/EE5ZtHqMTQZ">点击下载</a></p>
+<p><img src="7.jpg" srcset="/img/loading.gif" lazyload></p>
+<h1 id="笨办法学Python（中文第3版）——Zed-Shaw"><a href="#笨办法学Python（中文第3版）——Zed-Shaw" class="headerlink" title="笨办法学Python（中文第3版）——Zed Shaw"></a>笨办法学Python（中文第3版）——Zed Shaw</h1><p>书名：笨办法学Python（中文第3版）</p>
+<p>出版社：人民邮电出版社</p>
+<p>作者：Zed Shaw</p>
+<p>下载地址：<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/BzR5MP7J2jf">点击下载</a></p>
+<p><img src="8.jpg" srcset="/img/loading.gif" lazyload></p>
+<h1 id="笨办法学Python第四版——Zed-Shaw"><a href="#笨办法学Python第四版——Zed-Shaw" class="headerlink" title="笨办法学Python第四版——Zed Shaw"></a>笨办法学Python第四版——Zed Shaw</h1><p>书名：笨办法学Python（中文第3版）</p>
+<p>出版社：–</p>
+<p>作者：Zed Shaw</p>
+<p>下载地址：<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/rxQpbP1mzo9">点击下载</a></p>
+<p><img src="9.jpg" srcset="/img/loading.gif" lazyload></p>
+<h1 id="父与子的编程之旅：与小卡特一起学Python——Warren-Sande-Carter-Sande"><a href="#父与子的编程之旅：与小卡特一起学Python——Warren-Sande-Carter-Sande" class="headerlink" title="父与子的编程之旅：与小卡特一起学Python——Warren Sande　Carter Sande"></a>父与子的编程之旅：与小卡特一起学Python——Warren Sande　Carter Sande</h1><p>书名：父与子的编程之旅：与小卡特一起学Python</p>
+<p>出版社：人民邮电出版社</p>
+<p>作者：Warren Sande　Carter Sande</p>
+<p>下载地址：<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/QKk84P2MQqE">点击下载</a></p>
+<p><img src="10.jpg" srcset="/img/loading.gif" lazyload></p>
+<h1 id="可爱的Python——哲思社区"><a href="#可爱的Python——哲思社区" class="headerlink" title="可爱的Python——哲思社区"></a>可爱的Python——哲思社区</h1><p>书名：可爱的Python</p>
+<p>出版社：–</p>
+<p>作者：哲思社区</p>
+<p>下载地址：<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/A8igVpEsewf">点击下载</a></p>
+<p><img src="11.jpg" srcset="/img/loading.gif" lazyload></p>
+<h1 id="零基础入门学习Python——小甲鱼"><a href="#零基础入门学习Python——小甲鱼" class="headerlink" title="零基础入门学习Python——小甲鱼"></a>零基础入门学习Python——小甲鱼</h1><p>书名：零基础入门学习Python</p>
+<p>出版社：清华大学出版社</p>
+<p>作者：小甲鱼</p>
+<p>下载地址：<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/e3fW7oYf5UY">点击下载</a></p>
+<p><img src="12.jpg" srcset="/img/loading.gif" lazyload></p>
+<h1 id="像计算机科学家一样思考Python——Allen-B-Downey"><a href="#像计算机科学家一样思考Python——Allen-B-Downey" class="headerlink" title="像计算机科学家一样思考Python——Allen B. Downey"></a>像计算机科学家一样思考Python——Allen B. Downey</h1><p>书名：像计算机科学家一样思考Python</p>
+<p>出版社：人民邮电出版社</p>
+<p>作者：Allen B. Downey</p>
+<p>下载地址：<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/MdKsdBajnCT">点击下载</a></p>
+<p><img src="13.jpg" srcset="/img/loading.gif" lazyload></p>
+<h1 id="用Python写网络爬虫（第2版）——Katharine-Jarmul-Richard-Lawson"><a href="#用Python写网络爬虫（第2版）——Katharine-Jarmul-Richard-Lawson" class="headerlink" title="用Python写网络爬虫（第2版）——Katharine Jarmul Richard Lawson"></a>用Python写网络爬虫（第2版）——Katharine Jarmul Richard Lawson</h1><p>书名：用Python写网络爬虫（第2版）</p>
+<p>出版社：人民邮电出版社</p>
+<p>作者：Katharine Jarmul Richard Lawson</p>
+<p>下载地址：<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/3UcZbM2PVFN">点击下载</a></p>
+<p><img src="14.png" srcset="/img/loading.gif" lazyload></p>
+<h1 id="Python极客项目编程——Mahesh-Venkitachalam"><a href="#Python极客项目编程——Mahesh-Venkitachalam" class="headerlink" title="Python极客项目编程——Mahesh Venkitachalam"></a>Python极客项目编程——Mahesh Venkitachalam</h1><p>书名：用Python写网络爬虫（第2版）</p>
+<p>出版社：人民邮电出版社</p>
+<p>作者：Mahesh Venkitachalam</p>
+<p>下载地址：<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/jubKLxZ5W2r">点击下载</a></p>
+<p><img src="15.jpg" srcset="/img/loading.gif" lazyload></p>
+
+            </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/%E4%B9%A6%E7%B1%8D-Python/">书籍-Python</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/%E4%B9%A6%E7%B1%8D/">书籍</a>
+                    
+                  </div>
+                
+              </div>
+              
+                <p class="note note-warning">
+                  
+                    本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！
+                  
+                </p>
+              
+              
+                <div class="post-prevnext">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2021/11/21/%E5%AE%89%E8%A3%85Centos7/">
+                        <span class="hidden-mobile">安装Centos7</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+              <!-- Comments -->
+              <article class="comments" id="comments" lazyload>
+                
+                  
+                
+                
+  <div id="valine"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#valine', function() {
+      Fluid.utils.createScript('https://cdn.jsdelivr.net/npm/valine@1/dist/Valine.min.js', function() {
+        var options = Object.assign(
+          {"appId":"CBhowwS9f3Kmj6jy3pxLHbNI-gzGzoHsz","appKey":"WY9xcABitW5kba6I1brdeW9M","path":"window.location.pathname","placeholder":null,"avatar":"retro","meta":["nick","mail","link"],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":false,"recordIP":false,"serverURLs":"","emojiCDN":null,"emojiMaps":null,"enableQQ":false},
+          {
+            el: "#valine",
+            path: window.location.pathname
+          }
+        )
+        new Valine(options);
+        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
+          Fluid.plugins.initFancyBox('#valine .vcontent img:not(.vemoji)');
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+              </article>
+            
+          </article>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+  </div>
+  
+  <div class="statistics">
+    
+    
+
+    
+      
+        <!-- LeanCloud 统计PV -->
+        <span id="leancloud-site-pv-container" style="display: none">
+            总访问量 
+            <span id="leancloud-site-pv"></span>
+             次
+          </span>
+      
+      
+        <!-- LeanCloud 统计UV -->
+        <span id="leancloud-site-uv-container" style="display: none">
+            总访客数 
+            <span id="leancloud-site-uv"></span>
+             人
+          </span>
+      
+
+    
+  </div>
+
+
+  
+
+  
+</footer>
+
+
+  <!-- SCRIPTS -->
+  
+  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js" ></script>
+<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+  
+    <script  src="https://cdn.jsdelivr.net/npm/tocbot@4/dist/tocbot.min.js" ></script>
+  
+  
+    <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.js" ></script>
+  
+  
+    <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4/anchor.min.js" ></script>
+  
+  
+    <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js" ></script>
+  
+
+
+
+
+  <script defer src="/js/leancloud.js" ></script>
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2/lib/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var title = document.getElementById('subtitle').title;
+      
+      typing(title)
+      
+    })(window, document);
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="/js/boot.js" ></script>
+
+
+</body>
+</html>
