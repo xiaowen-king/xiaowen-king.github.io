@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>如何下载windows10/11ARM版</title>
+    <link href="/2021/12/16/%E5%A6%82%E4%BD%95%E4%B8%8B%E8%BD%BDwindows10-11ARM%E7%89%88/"/>
+    <url>/2021/12/16/%E5%A6%82%E4%BD%95%E4%B8%8B%E8%BD%BDwindows10-11ARM%E7%89%88/</url>
+    
+    <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>最近单位换了国产机，arm架构的处理器，用的是统信系统，那个东西连登个QQ和微信都困难，linux版本的QQ给狗狗都不用，于是就想试试看能不能装ARM版本的Win10，但是在百度找了半天没有找到ARM版的win10镜像下载，那么只能谷歌了，果然在谷歌找到了下载方法。</p><h1 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h1><p>站长不看评论，技术性问题在关于页面可以找到站长的联系方式。</p><h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><p>系统下载网站：<a href="https://uupdump.net/">UUP dump</a></p><p>进入网站可以看到网站是英文的，可以点击顶部的【语言】按钮切换为中文简体</p><p><img src="1-1.png"></p><p>可以看到【发布类型】这里面有好几个类型，选择一个自己喜欢的类型，点击右边的【arm64】</p><p><img src="1-2.png"></p><p>选择一个自己喜欢的版本</p><p><img src="1-3.png"></p><p>选择系统的语言，选择好后点击【下一步】</p><p><img src="1-4.png"></p><p>选择系统版本，可以全选或者是单选，选择好系统版本之后点击【下一步】</p><p><img src="1-5.png"></p><p>最后一步保持默认，直接点击【创建下载包】</p><p><img src="1-6.png"></p><p>解压下载下来的压缩包，进入解压出来的文件夹，右键【以管理员身份运行】【uup_download_windows.cmd】</p><p><img src="1-7.png"></p><p>开始下载了，只需要等待就可以</p><p><img src="1-8.png"></p><p>下载结束，会自动开始把下载下来的文件转换成ISO文件，只需要等待即可</p><p><img src="1-9.png"></p><p>转换完成，打开刚刚解压的文件夹里面就可以看到ISO文件了</p><p><img src="1-10.png"></p><p>这个网站不光可以下载windows10/11 ARM版，也可以下载X86版本，下载方式也是一样的。</p><h1 id="结尾彩蛋"><a href="#结尾彩蛋" class="headerlink" title="结尾彩蛋"></a>结尾彩蛋</h1><p><img src="0-0.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>资源共享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Windows</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>计算机网络各种书籍分享</title>
     <link href="/2021/12/13/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E4%B9%A6%E7%B1%8D%E5%88%86%E4%BA%AB/"/>
     <url>/2021/12/13/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E4%B9%A6%E7%B1%8D%E5%88%86%E4%BA%AB/</url>
